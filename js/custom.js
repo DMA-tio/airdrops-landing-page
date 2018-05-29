@@ -823,7 +823,7 @@ $(document).ready(function() {
                     window.dataLayer.push({
                        event: 'formSubmissionSuccess',
                        formId: 'TopForm',
-                       formName: 'Exchange Pre-Registration'
+                       formName: 'AirDrops Pre-Registration'
                     });
                     grecaptcha.reset(recaptcha1);
 
@@ -1018,7 +1018,7 @@ $(document).ready(function() {
                     window.dataLayer.push({
                        event: 'formSubmissionSuccess',
                        formId: 'BottomForm',
-                       formName: 'Exchange Pre-Registration'
+                       formName: 'AirDrops Pre-Registration'
                     });
                     grecaptcha.reset(recaptcha2);
 
