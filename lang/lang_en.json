@@ -1,32 +1,32 @@
 {
 "section1": {
-    "line1": "THE FUTURE OF CRYPTO TRADING",
-    "line2": "IS NOW OPEN FOR PRE REGISTRATION",
+    "line1": "REGISTER FOR OUR MASSIVE AIRDROP", 
+    "line2": "TIO HOLDERS QUALIFY",
     "username_placeholder": "Username",
     "email_placeholder": "Email",
     "password_placeholder": "Password",
     "confirm_password_placeholder": "Re-type Password",
-    "pre_register_btn": "PRE-REGISTER",
+    "pre_register_btn": "REGISTER",
     "json_register_success": "Thank you for registering!"
 },
 "section2": {
-    "line1": "Be the first to sign up to",
-    "point1": "Easy Account Verification",
-    "point1_text": "Efficient onboarding of all new clients. Less groan, more yay!",
-    "point2": "24/7 Responsive Support",
-    "point2_text": "Our support specialists are on call 24/7 by <a href='mailto:support@trade.io'>email</a>, <a href='javascript:void(0)' onclick='chatButton.onClick();'>live chat</a>, or telephone so you can get answers in minutes to any issues you might face.",
-    "point3": "Low Deposit Fees",
-    "point3_text": "trade.io charges the lowest withdrawal fees in the market, nothing on deposits, and a flat 0.1% commission on each trade, so you can keep more of your money."
+    "line1": "How does it work",
+    "point1": "Join Our Community",
+    "point1_text": "Community members who actively engage in the company’s telegram groups will automatically be a beneficiary to a set percentage of tokens",
+    "point2": "Contribute To The ICO",
+    "point2_text": "Existing TIO Holders who actively participate into the ICO of the client via the angel investing program will be automatically eligible to enter a raffle to receive a significant number of additional Alt Coins",
+    "point3": "Your TIOs Give You Access",
+    "point3_text": "Two weeks after announcing the onboarding of a new ICO client, trade.io will initiate another random raffle of a set percentage Alt Coins to TIO holders with minimum 2500 TIOs"
   },
 "section3": {
-    "line1": "Why you will love our exchange",
+    "line1": "Contribute To The ICO",
     "point1": "Clean and crisp layout",
     "point2": "Customizable/Movable widgets",
     "point3": "Create and save up to 10 preset layouts (multi-screen compatible)",
     "point4": "Customizable profile, newsfeed, chat, and more."
   },
 "section4": {
-    "point1": "The industry's only fully customizable platform",
+    "point1": "Your TIOs Give You Access",
     "point1_text": "With powerful flexibility you can create your perfect trading environment in just a few minutes after signing up, without compromising on performance or speed.",
     "point2": "Technical indicators to help with your trading",
     "point2_text": "Our default charting widgets and other technical tools will allow you to review historical data that will help you to tailor your future trading strategy.",
@@ -46,13 +46,13 @@
     "video3_title" : "Trading Different Cryptocurrency Types"
   },
 "section7": {
-    "title1": "The trading revolution has begun!",
-    "title2": "Pre-Register Now",
+    "title1": "",
+    "title2": "REGISTER FOR OUR MASSIVE AIRDROP",
     "username_placeholder": "Username",
     "email_placeholder": "Email",
     "password_placeholder": "Password",
     "confirm_password_placeholder": "Re-type Password",
-    "pre_register_btn": "PRE-REGISTER",
+    "pre_register_btn": "REGISTER",
     "json_register_success": "Thank you for registering!"
   },
 "section8": {

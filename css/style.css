@@ -2,6 +2,214 @@
 
 /*Custom Additions*/
 
+.bg-image {
+    background-image: url(../img/airdrops.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+small {
+    font-size: 1.2rem;
+    line-height: inherit;
+}
+
+blockquote {
+    margin: 3.9rem 0;
+    padding-left: 4.5rem;
+    position: relative;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 7rem;
+    line-height: 0px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.25);
+    font-family: arial, sans-serif;
+    position: absolute;
+    top: 2.6rem;
+    left: -2.3rem;
+}
+
+blockquote p {
+    font-family: "montserrat-regular", sans-serif;
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #111111;
+}
+
+blockquote cite {
+    display: block;
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+blockquote cite:before {
+    content: "\2014 \0020";
+}
+
+blockquote cite a, blockquote cite a:visited {
+    color: #828282;
+    border: none;
+}
+
+abbr {
+    font-family: "lora-bold", serif;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    letter-spacing: .05rem;
+    color: #828282;
+}
+
+var, kbd, samp, code, pre {
+    font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+}
+
+pre {
+    padding: 2.4rem 3rem 3rem;
+    background: #F1F1F1;
+    overflow-x: auto;
+}
+
+code {
+    font-size: 1.4rem;
+    margin: 0 .2rem;
+    padding: .3rem .6rem;
+    white-space: nowrap;
+    background: #F1F1F1;
+    border: 1px solid #E1E1E1;
+    border-radius: 3px;
+}
+
+pre > code {
+    display: block;
+    white-space: pre;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+}
+
+pre.prettyprint > code {
+    border: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+    text-decoration: none;
+}
+
+mark {
+    background: #ffd900;
+    color: #000000;
+}
+
+hr {
+    border: solid rgba(0, 0, 0, 0.1);
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 2.4rem 0 1.5rem;
+    height: 0;
+}
+
+
+#ICOs img {
+    width: 9.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+div#ICOs {
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem;
+    background: rgba(31, 43, 77, 0.27);
+    border-radius: 40px;
+    width: 85%;
+}
+
+
+.subheaderTIO{
+    color: #b9b9b9;
+    width:50%;
+    margin: 2rem auto;
+    line-height: 2.2rem;
+    text-shadow: black 0px 0px 10px;
+    text-align: center;
+}
+
+.Offerrings
+{
+    width:70%;
+    margin:auto;
+    font-size:1.5rem !important;
+    line-height: 2.4rem !important;
+    text-align:center;
+}
+#Offer
+{
+    background-color: #ecf0f1ed;
+/*    width: 100%;*/
+    z-index: 300;
+    position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
+    padding:2rem;
+    box-shadow: inset black 0px 0px 10px 2px;
+}
+
+#Offer h1
+{
+    text-align:center;
+    margin:auto;
+    padding-bottom:1rem;
+}
+
+.Qualifications
+{
+    width:70%;
+    margin:auto;
+    font-size:1.5rem !important;
+    line-height: 2.4rem !important;
+    color: #b9b9b9;
+    text-align: center;
+}
+.Qualifications strong
+{
+        font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+#Qualify
+{
+    background-color: #1d2848;
+/*    width: 100%;*/
+    z-index: 300;
+    position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
+    padding:2rem;
+    box-shadow: inset black 0px 0px 10px 2px;
+}
+
+#Qualify h1
+{
+    text-align:center;
+    margin:auto;
+    padding-bottom:1rem;
+    color: white;
+}
+
 #particle-canvas {
   width: 100%;
   height: 100%;
@@ -35,6 +243,17 @@
     background: rgba(41, 51, 68, 0.73);
     padding: 10px;
     /*     box-shadow: inset black 0px 0px 14px 1px; */
+}
+
+@media only screen and (max-width: 767px) {
+    
+.Qualifications,
+.subheaderTIO
+{
+    font-size:1rem !important;
+    line-height:1.3rem !important;
+}
+    
 }
 
 div#Walkthrough h1, #Walkthrough h3, div#Walkthrough h2 {
@@ -1404,7 +1623,7 @@ input:focus {
     left: 0;
     height: 100%;
     width: 50%;
-    background-image: url(../img/dashboard2.jpg);
+    background-image: url(../img/jim.png);
     box-shadow: inset black 0px 0px 14px 1px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2581,7 +2800,7 @@ div#footer {
     #dashboard_left {
         height: 50%;
         width: 100%;
-        background-position: top center;
+        /* background-position: -420px  0px; */
     }
     #dashboard_right {
         top: 50%;

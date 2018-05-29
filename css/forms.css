@@ -251,13 +251,7 @@ a.btn.btn--alt.menu-btn {
   filter: none;
   background-color: #d6979a;
 }
-.btn-block {
-
-  margin: auto;
-  text-align: center;
-  width: 330px;
-  margin-top: 20px;
-}
+.btn-block {margin: auto;text-align: center;width: 330px;margin-top: 20px;display: block;}
 
 .field-left {
     float: left;

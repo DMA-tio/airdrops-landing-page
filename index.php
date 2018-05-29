@@ -10,6 +10,8 @@
     // Use special CloudFlare Headers to get real ip of user
     $ip = $_SERVER['REMOTE_ADDR'] = isset($_SERVER['HTTP_CF_CONNECTING_IP']) ? $_SERVER['HTTP_CF_CONNECTING_IP'] : $_SERVER['REMOTE_ADDR'];
 
+    $ip = '31.13.218.192';
+
     $record = $reader->country($ip);
 
     $country_isoCode = $record->country->isoCode; // US
@@ -130,14 +132,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>trade.io - Beta Exchange Platform - &amp; Pre-Registration</title>
+        <title>trade.io - airdrops </title>
         <meta name="robot" content="index,follow">
         <meta name="copyright" content="Copyright © <?php echo date('Y');?> trade.io. All Rights Reserved.">
         <meta name="author" content="">
         <meta property="og:url" content="https://exchange.trade.io" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="trade.io's Beta Exchange Platform launched" />
-        <meta property="og:description" content="The exciting BETA version of the exchange is now launched! Get ready for a smooth, customizable user interface that will complement the trading strategy and preferences of any given user." />
+        <meta property="og:title" content="trade.io- airdrops" />
+        <meta property="og:description" content="Enrich your portfolio with potentially hundreds of different Alt Coins trade.io will launch first-of-a-kind massive airdrop campaign to TIO Holders" />
         <meta property="og:image" content="https://exchange.trade.io/img/exchange.trade.io-pre-registration.jpg" />
         <meta name="revisit-after" content="30">
         <link rel="shortcut icon" type="image/x-icon" href="">
@@ -201,9 +203,11 @@
       <!--<div class="popup-notification error font-semibold"></div>-->
       <!-- popup overlay -->
       <div id="video-sr-wrapper" style="display: none;">
+<!--
          <div id="video-sr" style="opacity: 0; transform: scale(0.9);">
             <iframe src="" width="1000" height="660" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
          </div>
+-->
       </div>
       <!-- the start of the website -->
       <div class="stack">
@@ -232,28 +236,19 @@
                      <h3><i class="fab fa-telegram"></i></h3>
                   </a>
                </div>
+<!--
                 <div id="site-menu">
                     <ul class="mob-menu">
                         <?php include('includes/menu.php') ?>
                     </ul>
                 </div>
+-->
             </div>
             <!-- header headline -->
             <div id="headline" data-aos="fade-down" data-aos-delay="300">
                <!-- big headline -->
                <span class="font-bold"><?php echo L::section1_line1; ?></span><br><span class="font-light"><?php echo L::section1_line2; ?></span>
-               <!--[if lte IE 8]>
-               <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-               <![endif]-->
-               <!--
-                  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-                  <script>
-                    hbspt.forms.create({
-                  	portalId: "4371728",
-                  	formId: "8818173b-5098-40d4-86e9-f9bb88d06fde"
-                  });
-                  </script>
-                  -->
+
                <div class="login">
                   <!--	<h1>Pre-register Now</h1>-->
                   <form method="post" class="RegisterForm" id="RegisterFormTop" action="">
@@ -292,16 +287,21 @@
                         <button type="submit" id="pre-register-top-btn" class="btn btn-primary btn-block btn-large"><?php echo L::section1_pre_register_btn; ?></button>
                      </div>
                   </form>
+
                </div>
             </div>
+             
             <div id="opacity-extra"></div>
-            <div id="play"></div>
+<!--            <div id="play"></div>-->
             <div class="layer"></div>
             <div class="gradient-video"></div>
+             <div class="bg-image"></div>
+<!--
             <video playsinline="" autoplay="" muted="" loop="" poster="" id="bgvid">
                <source src="video/loop_2.webm" type="video/webm">
                <source src="video/loop_2.mp4" type="video/mp4">
             </video>
+-->
             <!-- template thumbnails wrapper
                <div id="template_thumb_wrapper">
                
@@ -328,23 +328,56 @@
          <!-- header simulation -->
          <div id="header_blank"></div>
          <!-- introduction - 3 features -->
+          <div id="Qualify">
+         <h1>Register Now</h1>
+         <h3 class="subheaderTIO">Enrich your portfolio with potentially hundreds of different Alt Coins trade.io will launch first-of-a-kind massive airdrop campaign to TIO Holders <br><br> We have announced the upcoming launch of an ongoing airdrop campaign which will directly benefit our loyal community and our Trade Token (TIO) holders!</h3>
+            <a class="btn btn-primary btn-block btn-large" href="/downloads/PR_File.pdf" download="PR_File">Read the full PR here </a>
+              <br><br><br>
+            <h1>Who can qualify?</h1>
+               <!-- the container that hold the features -->
+
+
+             <p class="Qualifications">Any and all TIO holders!  Our community is automatically qualified to benefit from random airdrops, with tokens from the high potential ICOs who qualify as clients to the trade.io ICO Consulting arm.  Such ICOs have undergone a vetted process by the consulting team for AML processes, technical viability and longevity, and as a result have been verified as a high potential investment by trade.io.<br><br></p>
+
+          </div>
+          
+                    <div id="Offer">
+            <h1>How many tokens are on offer?</h1>
+               <!-- the container that hold the features -->
+
+
+             <p class="Offerrings">We will offer at the very least, 2 million tokens per verified ICO, specifically to our loyal TIO holders.  <br><br><strong>Which tokens will we be giving away?</strong> <br>The tokens we airdrop will only ever be from ICO clients who have already passed our strict vetting processes. <br><br>So far, these include: icowatchdog, ingot, darkmatter, zeroedge and TV-TWO.<br><br></p>
+                        
+                        <div id="ICOs">
+                            <img alt="" src="img/ICOs/WatchDog.png"/>
+                            <img alt="" src="img/ICOs/IngotCoin.png"/>
+                            <img alt="" src="img/ICOs/dmc-logo.png"/>
+                            <img alt="" src="img/ICOs/ZeroCoin.png"/>
+                            <img alt="" src="img/ICOs/tvTwo.png"/>
+                        </div>
+
+          </div>
+          
          <div id="introduction">
             <div id="particle-canvas">
+               
+                
+                
                <h1><?php echo L::section2_line1; ?></h1>
                <!-- the container that hold the features -->
                <ul class="clear-fix">
                   <li class="states state_1" data-aos="fade-down">
-                     <h4><i class="fas fa-user-circle"></i></h4>
+                     <h4><i class="fas fa-users"></i></h4>
                      <h3><?php echo L::section2_point1; ?></h3>
                      <p><?php echo L::section2_point1_text; ?><br><br></p>
                   </li>
                   <li class="states state_2" data-aos="fade-down" data-aos-delay="300">
-                     <h4><i class="fas fa-phone-square"></i></h4>
+                     <h4><i class="fas fa-plus-circle"></i></h4>
                      <h3><?php echo L::section2_point2; ?></h3>
                      <p><?php echo L::section2_point2_text; ?><br></p>
                   </li>
                   <li class="states state_4" data-aos="fade-down" data-aos-delay="600">
-                     <h4><i class="fas fa-exclamation-circle"></i></h4>
+                     <h4><i class="fas fa-key"></i></h4>
                      <h3><?php echo L::section2_point3; ?></h3>
                      <p><?php echo L::section2_point3_text; ?></p>
                   </li>
@@ -356,22 +389,30 @@
             <div id="dashboard_left" data-aos="fade-up"></div>
             <div id="dashboard_right" data-aos="fade-down">
                <div class="textwrap" id="DashLight" >
-                  <h2><span></span><?php echo L::section3_line1; ?></h2>
+                  <h2><span></span>A quote from our CEO</h2>
+<!--
                   <ul class="exchange clear-fix" >
                      <li  data-aos-delay="0"><?php echo L::section3_point1; ?></li>
                      <li data-aos-delay="100"><?php echo L::section3_point2; ?></li>
                      <li  data-aos-delay="200"><?php echo L::section3_point3; ?></li>
                      <li  data-aos-delay="300"><?php echo L::section3_point4; ?></li>
                   </ul>
+-->
+                   
+                <blockquote>
+                <p>This airdrop is a win win situation for all company stakeholders!  We are constantly looking for ways to add value to the experience of our loyal community and TIO holders. We feel that an ongoing airdrop of this size is the perfect way to both thank our community for their loyalty plus to assist new high potential ICOs in accessing our informed and ambitious community.</p>
+                <cite>Jim Preissler</cite>
+                </blockquote>
                   <br>
                   <!--				<a href="#" class="open_register font-semibold" style="text-transform: uppercase;">Register an account</a>-->
                </div>
             </div>
          </div>
+<!--
          <div id="pes" class="">
             <div id="pes_left" data-aos="fade-down">
                <div class="textwrap pick">
-                  <!-- <img src="img/shopping_bag_icon.png"> -->
+        
                   <h2><i class="fas fa-cogs"></i></h2>
                   <p><?php echo L::section4_point1; ?></p>
                   <br>
@@ -380,7 +421,7 @@
             </div>
             <div id="pes_middle" data-aos="fade-down" data-aos-delay="300">
                <div class="textwrap edit">
-                  <!-- <img src="img/settings_icon.png"> -->
+
                   <h2><i class="fas fa-chart-area"></i></h2>
                   <p><?php echo L::section4_point2; ?></p>
                   <br>
@@ -389,7 +430,7 @@
             </div>
             <div id="pes_right" data-aos="fade-down" data-aos-delay="600">
                <div class="textwrap send">
-                  <!-- <img src="img/send_icon.png"> -->
+
                   <h2><i class="fas fa-plane"></i></h2>
                   <p><?php echo L::section4_point3; ?></p>
                   <br>
@@ -399,7 +440,7 @@
             </div>
             <div id="pes_right2" data-aos="fade-down" data-aos-delay="900">
                <div class="textwrap send2">
-                  <!-- <img src="img/send_icon.png"> -->
+
                   <h2><i class="fas fa-server"></i></h2>
                   <p><?php echo L::section4_point4; ?></p>
                   <br>
@@ -407,6 +448,8 @@
                </div>
             </div>
          </div>
+-->
+<!--
          <div id="Walkthrough" data-aos="fade-up" data-aos-delay="1300">
             <br>
             <br>
@@ -415,7 +458,7 @@
             <br>
             <div id="videobox">
                <div class="videoitem" style = "max-width: 1000px;padding: 0px;" data-aos="fade-down">
-                  <!--         <h2>Researching The Coins</h2> -->
+
                   <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
                      <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/2ecti34i8s?seo=false&videoFoam=true" title="Wistia video player" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div>
                   </div>
@@ -426,6 +469,8 @@
             <br>
             <br>
          </div>
+-->
+<!--
          <div id="Education" data-aos="fade-down">
             <br>
             <br>
@@ -460,16 +505,18 @@
             <br>
             <br>
          </div>
+-->
          <div id="footer" >
             <div id="register_footer">
                <div class="slogan" style="display: table;">
                   <h2><?php echo L::section7_title1; ?></h2>
                </div>
                <h2 id="registerText"><?php echo L::section7_title2; ?></h2>
+<!--
                <div id="register-logo">
                   <div class="logo-btm"><a href="#"><img src="../img/footer-logo.png"></a></div>
-                  <!-- <div class="register-btm"><a href="#" class="">Register a Free account</a></div> -->
                </div>
+-->
                <!--[if lte IE 8]>
                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
                <![endif]-->
