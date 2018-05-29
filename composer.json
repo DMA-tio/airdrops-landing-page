@@ -1,0 +1,14 @@
+{
+    "name": "user/airdrops.trade.io",
+    "description": "AirDrops Landing Page",
+    "require": {
+    "php": "7.2.*",
+        "geoip2/geoip2": "~2.0"
+    },
+    "authors": [
+        {
+            "name": "Stavros Ereifej",
+            "email": "stavros.ereifej@trade.io"
+        }
+    ]
+}
