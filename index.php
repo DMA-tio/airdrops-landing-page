@@ -136,11 +136,11 @@
         <meta name="robot" content="index,follow">
         <meta name="copyright" content="Copyright © <?php echo date('Y');?> trade.io. All Rights Reserved.">
         <meta name="author" content="">
-        <meta property="og:url" content="https://exchange.trade.io" />
+        <meta property="og:url" content="https://airdrops.trade.io" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="trade.io- airdrops" />
         <meta property="og:description" content="Enrich your portfolio with potentially hundreds of different Alt Coins trade.io will launch first-of-a-kind massive airdrop campaign to TIO Holders" />
-        <meta property="og:image" content="https://exchange.trade.io/img/exchange.trade.io-pre-registration.jpg" />
+        <meta property="og:image" content="https://airdrops.trade.io/img/airdrops.trade.io-pre-registration.jpg" />
         <meta name="revisit-after" content="30">
         <link rel="shortcut icon" type="image/x-icon" href="">
         <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
