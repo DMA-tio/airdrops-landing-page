@@ -823,7 +823,7 @@ $(document).ready(function() {
                     window.dataLayer.push({
                        event: 'formSubmissionSuccess',
                        formId: 'TopForm',
-                       formName: 'AirDrops Pre-Registration'
+                       formName: 'Airdrops May \'18'
                     });
                     grecaptcha.reset(recaptcha1);
 
@@ -1018,7 +1018,7 @@ $(document).ready(function() {
                     window.dataLayer.push({
                        event: 'formSubmissionSuccess',
                        formId: 'BottomForm',
-                       formName: 'AirDrops Pre-Registration'
+                       formName: 'Airdrops May \'18'
                     });
                     grecaptcha.reset(recaptcha2);
 
