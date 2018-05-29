@@ -255,7 +255,7 @@
                      <div id="json-register-error"></div>
                      <div id="json-register-success"><?php echo L::section1_json_register_success; ?></div>
                      <input type="hidden" name="csrf_token" id="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
-                     <input type="hidden" name="registration_source" id="registration_source" value="Exchange-Pre-Registration">
+                     <input type="hidden" name="registration_source" id="registration_source" value="AirDrops-Pre-Registration">
                       <input type="hidden" name="user_language" id="user_language" value="<?php echo $languageFullName[$lang]; ?>">
                       <input type="hidden" name="utm_source" id="utm_source" value="<?php echo $utm_source; ?>">
                       <input type="hidden" name="utm_medium" id="utm_medium" value="<?php echo $utm_medium; ?>">
@@ -535,7 +535,7 @@
                      <div id="json-register-error-bottom"></div>
                      <div id="json-register-success-bottom"><?php echo L::section7_json_register_success; ?></div>
                      <input type="hidden" name="csrf_token" id="csrf_token_bottom" value="<?php echo $_SESSION['csrf_token']; ?>">
-                     <input type="hidden" name="registration_source" id="registration_source_bottom" value="Exchange-Pre-Registration">
+                     <input type="hidden" name="registration_source" id="registration_source_bottom" value="AirDrops-Pre-Registration">
                       <input type="hidden" name="user_language_bottom" id="user_language_bottom" value="<?php echo $languageFullName[$lang]; ?>">
                       <input type="hidden" name="utm_source_bottom" id="utm_source_bottom" value="<?php echo $utm_source; ?>">
                       <input type="hidden" name="utm_medium_bottom" id="utm_medium_bottom" value="<?php echo $utm_medium; ?>">
