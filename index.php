@@ -124,6 +124,12 @@
         
         header("Location: ?lang={$lang}{$utm_parameters}");
     }
+
+    function getFullURL() {
+        $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https' : 'http';
+        $full_url = $protocol."://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        return $full_url;
+    }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="<?php echo $lang == 'ar' ? 'rtl' : 'ltr' ?>">
@@ -300,13 +306,14 @@
 	portalId: "4371728",
 	formId: "af7d1187-dc38-4b58-beb1-4ac6be7e63a5",
 	css: "",
-      onFormSubmit: function(){
+      onFormSubmit: function($form){
           window.dataLayer = window.dataLayer || [];
           window.dataLayer.push({
               event: 'formSubmissionSuccess',
               formId: 'TopForm',
               formName: 'Airdrops May \'18'
           });
+          $('input[name="registration_source"]', $form).val('<?php echo getFullURL(); ?>');
       }
 });
 </script>
@@ -633,13 +640,14 @@
 	portalId: "4371728",
 	formId: "af7d1187-dc38-4b58-beb1-4ac6be7e63a5",
 	css: "",
-      onFormSubmit: function(){
+      onFormSubmit: function($form){
           window.dataLayer = window.dataLayer || [];
           window.dataLayer.push({
               event: 'formSubmissionSuccess',
               formId: 'BottomForm',
               formName: 'Airdrops May \'18'
           });
+          $('input[name="registration_source"]', $form).val('<?php echo getFullURL(); ?>');
       }
 });
 </script>
