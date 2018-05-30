@@ -34,7 +34,17 @@ form.RegisterForm {
 
     /*border: 1px solid gray;*/
 }
+label#label-firstname-af7d1187-dc38-4b58-beb1-4ac6be7e63a5 {
+    font-size: 1.5rem;
+}
 
+label#label-lastname-af7d1187-dc38-4b58-beb1-4ac6be7e63a5 {
+    font-size: 1.5rem;
+}
+
+label#label-email-af7d1187-dc38-4b58-beb1-4ac6be7e63a5 {
+    font-size: 1.5rem;
+}
 .languagepicker a {
     color: #ffffff;
     text-decoration: none;
@@ -251,7 +261,7 @@ a.btn.btn--alt.menu-btn {
   filter: none;
   background-color: #d6979a;
 }
-.btn-block {margin: auto;text-align: center;width: 330px;margin-top: 20px;display: block;}
+.btn-block {margin: auto;text-align: center;max-width: 330px;margin-top: 20px;display: block;width: 100%;}
 
 .field-left {
     float: left;
@@ -424,7 +434,12 @@ input#firstname-8818173b-5098-40d4-86e9-f9bb88d06fde {
 ul.hs-error-msgs.inputs-list li label {
     color:#ffb0ac !important;
     text-shadow: black 0px 0px 1px;
-  position:absolute;
+    position:absolute;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    font-size: 1.2rem;
 }
 
 input.hs-button.primary.large {

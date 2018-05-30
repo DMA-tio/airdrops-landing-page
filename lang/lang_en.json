@@ -1,7 +1,7 @@
 {
 "section1": {
-    "line1": "REGISTER FOR OUR MASSIVE AIRDROP", 
-    "line2": "TIO HOLDERS QUALIFY",
+    "line1": "MASSIVE AIRDROP", 
+    "line2": "An Ongoing Campaign For TIO Holders",
     "username_placeholder": "Username",
     "email_placeholder": "Email",
     "password_placeholder": "Password",
@@ -11,12 +11,12 @@
 },
 "section2": {
     "line1": "How does it work",
-    "point1": "Join Our Community",
+    "point1": "Join Our Telegram",
     "point1_text": "Community members who actively engage in the company’s telegram groups will automatically be a beneficiary to a set percentage of tokens",
     "point2": "Contribute To The ICO",
-    "point2_text": "Existing TIO Holders who actively participate into the ICO of the client via the angel investing program will be automatically eligible to enter a raffle to receive a significant number of additional Alt Coins",
+    "point2_text": "Existing TIO Holders who actively participate into the ICO of the client via the upcoming airdrop participation page will be eligible to receive a significant number of additional Alt Coins. The top raffle allocation is 100,000.",
     "point3": "Your TIOs Give You Access",
-    "point3_text": "Two weeks after announcing the onboarding of a new ICO client, trade.io will initiate another random raffle of a set percentage Alt Coins to TIO holders with minimum 2500 TIOs"
+    "point3_text": "trade.io will take a snapshot of all wallets holding TIO - anybody holding over 2,500 TIOs will be eligible to receive an additional airdrop. This will be an ongoing process for any ICO launched with us. "
   },
 "section3": {
     "line1": "Contribute To The ICO",
@@ -46,8 +46,8 @@
     "video3_title" : "Trading Different Cryptocurrency Types"
   },
 "section7": {
-    "title1": "",
-    "title2": "REGISTER FOR OUR MASSIVE AIRDROP",
+    "title1": "REGISTER FOR OUR MASSIVE AIRDROP",
+    "title2": "Strictly-vetted ICOs are airdropping millions of tokens through this program",
     "username_placeholder": "Username",
     "email_placeholder": "Email",
     "password_placeholder": "Password",

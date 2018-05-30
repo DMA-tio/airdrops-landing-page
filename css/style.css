@@ -1,9 +1,18 @@
 @charset "UTF-8";
+/* Custom Font */
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 /*Custom Additions*/
 
+div#particles-js {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 .bg-image {
-    background-image: url(../img/airdrops.jpg);
+    /* background-image: url(../img/airdrops.jpg); */
     width: 100%;
     height: 100%;
     background-position: center;
@@ -11,7 +20,279 @@
     position: absolute;
     top: 0;
     left: 0;
+    /* filter: blur(4px); */
 }
+#Clouds {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 30%;
+  overflow: hidden;
+  -webkit-animation: FadeIn 3s ease-out;
+  animation: FadeIn 3s ease-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0.9;
+}
+@-webkit-keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.Cloud {
+  position: absolute;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  height: 70px;
+  -webkit-animation-duration: 120s;
+          animation-duration: 120s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-name: Float, FadeFloat;
+          animation-name: Float, FadeFloat;
+  z-index: 1;
+}
+.Cloud.Foreground {
+  height: 10%;
+  min-height: 20px;
+  z-index: 3;
+  opacity: 0.3;
+}
+.Cloud.Background {
+  opacity: 0.5;
+  height: 9.09090909%;
+  min-height: 8px;
+  -webkit-animation-duration: 210s;
+  animation-duration: 210s;
+0.5:
+}
+@-webkit-keyframes Float {
+  from {
+    -webkit-transform: translateX(100%) translateZ(0);
+            transform: translateX(100%) translateZ(0);
+  }
+  to {
+    -webkit-transform: translateX(-15%) translateZ(0);
+            transform: translateX(-15%) translateZ(0);
+  }
+}
+@keyframes Float {
+  from {
+    -webkit-transform: translateX(100%) translateZ(0);
+            transform: translateX(100%) translateZ(0);
+  }
+  to {
+    -webkit-transform: translateX(-15%) translateZ(0);
+            transform: translateX(-15%) translateZ(0);
+  }
+}
+/*
+@keyframes Float {
+  from { transform: translateX(100%) translateY(-100%) translateZ(0); }
+  50% { transform: translateX(55%) translateY(0) translateZ(0); }
+  to { transform: translateX(-5%) translateY(-100%) translateZ(0); }
+}
+*/
+@-webkit-keyframes FadeFloat {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  5%,
+  90% {
+    opacity: 1;
+  }
+}
+@keyframes FadeFloat {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  5%,
+  90% {
+    opacity: 1;
+  }
+}
+.Cloud:nth-child(10) {
+  -webkit-animation-delay: -184.61538462s;
+          animation-delay: -184.61538462s;
+  top: 60%;
+}
+.Cloud.Foreground:nth-child(10) {
+  -webkit-animation-duration: 80s;
+          animation-duration: 80s;
+  height: 35%;
+}
+.Cloud.Background:nth-child(10) {
+  -webkit-animation-duration: 110s;
+          animation-duration: 110s;
+  height: -3.40909091%;
+}
+.Cloud:nth-child(9) {
+  -webkit-animation-delay: -166.15384615s;
+          animation-delay: -166.15384615s;
+  top: 54%;
+}
+.Cloud.Foreground:nth-child(9) {
+  -webkit-animation-duration: 84s;
+          animation-duration: 84s;
+  height: 32.5%;
+}
+.Cloud.Background:nth-child(9) {
+  -webkit-animation-duration: 114s;
+          animation-duration: 114s;
+  height: -2.15909091%;
+}
+.Cloud:nth-child(8) {
+  -webkit-animation-delay: -147.69230769s;
+          animation-delay: -147.69230769s;
+  top: 48%;
+}
+.Cloud.Foreground:nth-child(8) {
+  -webkit-animation-duration: 88s;
+          animation-duration: 88s;
+  height: 30%;
+}
+.Cloud.Background:nth-child(8) {
+  -webkit-animation-duration: 118s;
+          animation-duration: 118s;
+  height: -0.90909091%;
+}
+.Cloud:nth-child(7) {
+  -webkit-animation-delay: -129.23076923s;
+          animation-delay: -129.23076923s;
+  top: 42%;
+}
+.Cloud.Foreground:nth-child(7) {
+  -webkit-animation-duration: 92s;
+          animation-duration: 92s;
+  height: 27.5%;
+}
+.Cloud.Background:nth-child(7) {
+  -webkit-animation-duration: 122s;
+          animation-duration: 122s;
+  height: 0.34090909%;
+}
+.Cloud:nth-child(6) {
+  -webkit-animation-delay: -110.76923077s;
+          animation-delay: -110.76923077s;
+  top: 36%;
+}
+.Cloud.Foreground:nth-child(6) {
+  -webkit-animation-duration: 96s;
+          animation-duration: 96s;
+  height: 25%;
+}
+.Cloud.Background:nth-child(6) {
+  -webkit-animation-duration: 126s;
+          animation-duration: 126s;
+  height: 1.59090909%;
+}
+.Cloud:nth-child(5) {
+  -webkit-animation-delay: -92.30769231s;
+          animation-delay: -92.30769231s;
+  top: 30%;
+}
+.Cloud.Foreground:nth-child(5) {
+  -webkit-animation-duration: 100s;
+          animation-duration: 100s;
+  height: 22.5%;
+}
+.Cloud.Background:nth-child(5) {
+  -webkit-animation-duration: 130s;
+          animation-duration: 130s;
+  height: 2.84090909%;
+}
+.Cloud:nth-child(4) {
+  -webkit-animation-delay: -73.84615385s;
+          animation-delay: -73.84615385s;
+  top: 24%;
+}
+.Cloud.Foreground:nth-child(4) {
+  -webkit-animation-duration: 104s;
+          animation-duration: 104s;
+  height: 20%;
+}
+.Cloud.Background:nth-child(4) {
+  -webkit-animation-duration: 134s;
+          animation-duration: 134s;
+  height: 4.09090909%;
+}
+.Cloud:nth-child(3) {
+  -webkit-animation-delay: -55.38461538s;
+          animation-delay: -55.38461538s;
+  top: 18%;
+}
+.Cloud.Foreground:nth-child(3) {
+  -webkit-animation-duration: 108s;
+          animation-duration: 108s;
+  height: 17.5%;
+}
+.Cloud.Background:nth-child(3) {
+  -webkit-animation-duration: 138s;
+          animation-duration: 138s;
+  height: 5.34090909%;
+}
+.Cloud:nth-child(2) {
+  -webkit-animation-delay: -36.92307692s;
+          animation-delay: -36.92307692s;
+  top: 12%;
+}
+.Cloud.Foreground:nth-child(2) {
+  -webkit-animation-duration: 112s;
+          animation-duration: 112s;
+  height: 15%;
+}
+.Cloud.Background:nth-child(2) {
+  -webkit-animation-duration: 142s;
+          animation-duration: 142s;
+  height: 6.59090909%;
+}
+.Cloud:nth-child(1) {
+  -webkit-animation-delay: -18.46153846s;
+          animation-delay: -18.46153846s;
+  top: 6%;
+}
+.Cloud.Foreground:nth-child(1) {
+  -webkit-animation-duration: 116s;
+          animation-duration: 116s;
+  height: 12.5%;
+}
+.Cloud.Background:nth-child(1) {
+  -webkit-animation-duration: 146s;
+          animation-duration: 146s;
+  height: 7.84090909%;
+}
+.Cloud {
+  background-image: url(../img/cloud.png);
+  opacity: 0.4;
+}
+.Cloud.Background {
+  background-image: url(../img/cloud_background.png);
+}
+
+
 
 small {
     font-size: 1.2rem;
@@ -140,19 +421,49 @@ div#ICOs {
     width: 85%;
 }
 
+.column-12 {
+    display: flex;
+    margin: auto;
+    padding: 5rem !important;
+}
+
+.column-6 {
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 1024px) {
+.column-12 {
+    display:block;
+    margin:auto;
+    text-align:center;
+}
+.column-6 {
+    margin-top:60px;
+    width:unset;
+}
+
+}
+@media only screen and (max-width: 910px) {
+    blockquote p
+    {
+        font-size:0.9rem;
+    }
+}
 
 .subheaderTIO{
     color: #b9b9b9;
-    width:50%;
     margin: 2rem auto;
     line-height: 2.2rem;
     text-shadow: black 0px 0px 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .Offerrings
 {
-    width:70%;
+/*    width:70%;*/
     margin:auto;
     font-size:1.5rem !important;
     line-height: 2.4rem !important;
@@ -160,13 +471,14 @@ div#ICOs {
 }
 #Offer
 {
-    background-color: #ecf0f1ed;
-/*    width: 100%;*/
+    background-color: rgb(236, 240, 241);
+    /*    width: 100%;*/
     z-index: 300;
     position: relative;
     -webkit-transform: translate3d(0, 0, 0);
     padding:2rem;
-    box-shadow: inset black 0px 0px 10px 2px;
+    /* box-shadow: black 0px 0px 4px 2px; */
+    z-index: 99999;
 }
 
 #Offer h1
@@ -178,7 +490,7 @@ div#ICOs {
 
 .Qualifications
 {
-    width:70%;
+    /* width:70%; */
     margin:auto;
     font-size:1.5rem !important;
     line-height: 2.4rem !important;
@@ -194,12 +506,12 @@ div#ICOs {
 #Qualify
 {
     background-color: #1d2848;
-/*    width: 100%;*/
+    /*    width: 100%;*/
     z-index: 300;
     position: relative;
     -webkit-transform: translate3d(0, 0, 0);
     padding:2rem;
-    box-shadow: inset black 0px 0px 10px 2px;
+    /* box-shadow: inset black 0px 0px 10px 2px; */
 }
 
 #Qualify h1
@@ -213,17 +525,19 @@ div#ICOs {
 #particle-canvas {
   width: 100%;
   height: 100%;
-  background-color: #1c2748;
+  /* background-color: #1c2748; */
+  top: 0;
+  position: absolute !important;
 }
 
 #particle-canvas > div {
-    background:white !important;
+    /* background:white !important; */
     top: unset !important;
 }
 #particle-canvas canvas {
     position: absolute !important;
     top: 0;
-    box-shadow: inset #000000 0px 0px 10px 0px;
+    /* box-shadow: inset #000000 0px 0px 10px 0px; */
 }
 
 #registerText
@@ -233,6 +547,9 @@ div#ICOs {
     width: 100% !important;
     display: block !important;
     margin-top: 90px !important;
+    font-size: 1.5rem;
+    line-height: 1;
+    /* margin-top: 75px !important; */
 }
 #Walkthrough
 {
@@ -352,9 +669,7 @@ div#videobox {
     font-size: 15px;
 }
 
-/* Custom Font */
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 /*Reset*/
 
@@ -433,6 +748,7 @@ html {
     width: 100%;
     background: #1c2748;
     height: 100%;
+    font-family: 'Montserrat' !important;
 }
 
 body {
@@ -466,8 +782,9 @@ body {
 /* font styles */
 
 .font-light {
-    font-family: 'source_sans_prolight', Helvetica, Arial, sans-serif!important;
+    font-family: 'Montserrat';
     font-weight: 100;
+    font-size: 3rem;
 }
 
 .font-regular {
@@ -479,8 +796,7 @@ body {
 }
 
 .font-bold {
-    font-family: 'source_sans_probold', Helvetica, Arial, sans-serif!important;
-    font-weight: 700;
+    font-family: 'Montserrat' !important;
 }
 
 .font-italic {
@@ -1114,12 +1430,14 @@ a {
     left: 0;
     height: 100%;
     z-index: 10;
-    background-image: url(../img/poster_2.jpg);
-    background-size: 1597px;
+    /* background-image: url(../img/airdrops.jpg); */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
-    background-color: #242529;
+    /* background-color: #1dada1; */
     overflow: hidden;
+    background-color: #0afdfd;
+    background-image: radial-gradient(circle, #64f7f0 0%, #26e6fa 70%, #1fa0fb 100%);
 }
 
 #movie {
@@ -1171,8 +1489,8 @@ video {
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.38;
-    background-color: #2a2b4d;
+    /* opacity: .4; */
+    background-color: rgba(30, 41, 72, 0.74);
 }
 
 .still {
@@ -1216,12 +1534,14 @@ video {
     top: 0;
     left: 0;
     bottom: 0;
+    /* text-shadow: white 0px 0px 10px !important; */
     text-align: center;
 }
 
 #headline span {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    text-shadow: black 0px 0px 10px;
+    text-shadow: white 0px 0px 5px;
+    letter-spacing: 0.25rem;
 }
 
 #play {
@@ -1502,15 +1822,16 @@ input:focus {
 }
 
 #introduction {
-    background-color: #FFF;
+    background-color: rgba(30, 41, 72, 0.98);
     width: 100%;
     z-index: 300;
     position: relative;
     -webkit-transform: translate3d(0, 0, 0);
+    box-shadow: inset rgba(0, 0, 0, 0.62) 0px 0px 28px -2px;
 }
 
 #introduction ul {
-    width: 775px;
+    width: 1060px;
     margin: 0px auto;
     list-style: none;
     padding: 102px 0 102px 0;
@@ -2668,7 +2989,7 @@ div#footer {
         padding-bottom: 20px;
     }
     #headline span {
-        line-height: 24px;
+        /* line-height: 21px; */
     }
     #navigation {
         display: none;
@@ -2677,7 +2998,7 @@ div#footer {
         display: none;
     }
     #header {
-        background-image: url(../img/poster_2.jpg);
+        background-image: url(../img/airdrops.jpg);
         background-size: cover;
         background-position: -250px 0px;
     }

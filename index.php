@@ -10,6 +10,8 @@
     // Use special CloudFlare Headers to get real ip of user
     $ip = $_SERVER['REMOTE_ADDR'] = isset($_SERVER['HTTP_CF_CONNECTING_IP']) ? $_SERVER['HTTP_CF_CONNECTING_IP'] : $_SERVER['REMOTE_ADDR'];
 
+    $ip = '31.22.92.0';
+
     $record = $reader->country($ip);
 
     $country_isoCode = $record->country->isoCode; // US
@@ -174,6 +176,8 @@
         <script type="text/javascript" src="js/easing.js"></script>
         <!-- trade.io Checkout-->
         <script type="text/javascript" src="dashboard/js/functions.js"></script>
+        <script type="text/javascript" src="js/particles.js"></script>
+<!--         <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>-->
         <!-- Custom -->
         <script type="text/javascript" src="js/custom.js"></script>
         <!-- Waypoints -->
@@ -182,6 +186,8 @@
         <script type="text/javascript" src="api2/api.js"></script>
         <!--AOS library-->
         <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        
+       
         
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -249,6 +255,7 @@
 
                <div class="login">
                   <!--	<h1>Pre-register Now</h1>-->
+<!--
                   <form method="post" class="RegisterForm" id="RegisterFormTop" action="">
                      <div id="json-register-error"></div>
                      <div id="json-register-success"><?php echo L::section1_json_register_success; ?></div>
@@ -285,6 +292,18 @@
                         <button type="submit" id="pre-register-top-btn" class="btn btn-primary btn-block btn-large"><?php echo L::section1_pre_register_btn; ?></button>
                      </div>
                   </form>
+-->
+<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "4371728",
+	formId: "af7d1187-dc38-4b58-beb1-4ac6be7e63a5",
+	css: ""
+});
+</script>
 
                </div>
             </div>
@@ -293,7 +312,24 @@
 <!--            <div id="play"></div>-->
             <div class="layer"></div>
             <div class="gradient-video"></div>
+             <div id="particles-js">
+                 <div id="Clouds">
+  <div class="Cloud Foreground"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Foreground"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Foreground"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Foreground"></div>
+  <div class="Cloud Background"></div>
+  <div class="Cloud Background"></div>
+<!--  <svg viewBox="0 0 40 24" class="Cloud"><use xlink:href="#Cloud"></use></svg>-->
+</div>
+
              <div class="bg-image"></div>
+             </div>
+         
 <!--
             <video playsinline="" autoplay="" muted="" loop="" poster="" id="bgvid">
                <source src="video/loop_2.webm" type="video/webm">
@@ -326,27 +362,37 @@
          <!-- header simulation -->
          <div id="header_blank"></div>
          <!-- introduction - 3 features -->
-          <div id="Qualify">
-         <h1>Register Now</h1>
-         <h3 class="subheaderTIO">Enrich your portfolio with potentially hundreds of different Alt Coins trade.io will launch first-of-a-kind massive airdrop campaign to TIO Holders <br><br> We have announced the upcoming launch of an ongoing airdrop campaign which will directly benefit our loyal community and our Trade Token (TIO) holders!</h3>
+          <div id="Qualify" class="column-12" data-aos="fade-in">
+              <div class="column-6" data-aos="fade-right" data-aos-delay="300">
+         <h1>Enrich Your Portfolio</h1>
+         <h3 class="subheaderTIO">With potentially hundreds of different Alt Coins, we're launching a first-of-a-kind massive airdrop campaign to TIO holders. <br><br>
+                  Get tokens from TV-TWO, ICO Watchdog, INGOT Coin, DarcMatter, ZerEdge. Another 50 ICOs in the pipeline may make 100 million coins available for airdrop in the coming months.
+                  </h3>
             <a class="btn btn-primary btn-block btn-large" href="/downloads/PR_File.pdf" download="PR_File">Read the full PR here </a>
+            </div>
               <br><br><br>
-            <h1>Who can qualify?</h1>
+              <div class="column-6" data-aos="fade-left" data-aos-delay="300">
+            <h1>Who Can Qualify?</h1>
                <!-- the container that hold the features -->
 
 
-             <p class="Qualifications">Any and all TIO holders!  Our community is automatically qualified to benefit from random airdrops, with tokens from the high potential ICOs who qualify as clients to the trade.io ICO Consulting arm.  Such ICOs have undergone a vetted process by the consulting team for AML processes, technical viability and longevity, and as a result have been verified as a high potential investment by trade.io.<br><br></p>
-
+             <h3 class="subheaderTIO">Any and all TIO holders! Our community is automatically qualified to benefit from random airdrops, with tokens from the high potential ICOs who qualify as clients to the trade.io ICO Consulting arm. Such ICOs have undergone a vetted process by the consulting team for AML processes, technical viability and longevity, and as a result have been verified as a high potential investment by trade.io.<br><br></h3>
+              </div>
           </div>
           
-                    <div id="Offer">
+                    <div id="Offer" data-aos="fade-down">
             <h1>How many tokens are on offer?</h1>
                <!-- the container that hold the features -->
 
 
-             <p class="Offerrings">We will offer at the very least, 2 million tokens per verified ICO, specifically to our loyal TIO holders.  <br><br><strong>Which tokens will we be giving away?</strong> <br>The tokens we airdrop will only ever be from ICO clients who have already passed our strict vetting processes. <br><br>So far, these include: icowatchdog, ingot, darkmatter, zeroedge and TV-TWO.<br><br></p>
+             <p class="Offerrings">We will offer at the very least, 2 million tokens per verified client specifically to our loyal TIO holders. <br><br></p>
+             <h1>Which tokens will we be giving away?</h1>           
+             <p class="Offerrings">The tokens we airdrop will only ever be from clients who have already passed our strict vetting processes. <br><br>
+                        So far, these include: icowatchdog, ingot, darkmatter, zeroedge and TV-TWO.
+
+                        </p>
                         
-                        <div id="ICOs">
+                        <div id="ICOs" data-aos="fade-up">
                             <img alt="" src="img/ICOs/WatchDog.png"/>
                             <img alt="" src="img/ICOs/IngotCoin.png"/>
                             <img alt="" src="img/ICOs/dmc-logo.png"/>
@@ -357,15 +403,15 @@
           </div>
           
          <div id="introduction">
-            <div id="particle-canvas">
+            
                
                 
                 
-               <h1><?php echo L::section2_line1; ?></h1>
+               <h1 data-aos="fade-down"><?php echo L::section2_line1; ?></h1>
                <!-- the container that hold the features -->
                <ul class="clear-fix">
                   <li class="states state_1" data-aos="fade-down">
-                     <h4><i class="fas fa-users"></i></h4>
+                     <h4><i class="fab fa-telegram"></i></h4>
                      <h3><?php echo L::section2_point1; ?></h3>
                      <p><?php echo L::section2_point1_text; ?><br><br></p>
                   </li>
@@ -379,13 +425,20 @@
                      <h3><?php echo L::section2_point3; ?></h3>
                      <p><?php echo L::section2_point3_text; ?></p>
                   </li>
+                   <li class="states state_4" data-aos="fade-down" data-aos-delay="600">
+                     <h4><i class="fas fa-calendar-plus"></i></h4>
+                     <h3>Additional Bonus</h3>
+                     <p>TIO holders who participate in the ICO via the trade.io link will be eligible to receive additional bonuses over and above what the client ICO is offering.</p>
+                  </li>
+                   
                </ul>
-            </div>
+
+          
          </div>
          <!-- information about the dashboard -->
          <div id="dashboard" class="" >
-            <div id="dashboard_left" data-aos="fade-up"></div>
-            <div id="dashboard_right" data-aos="fade-down">
+            <div id="dashboard_left" data-aos="fade-up" data-aos-delay="300"></div>
+            <div id="dashboard_right" data-aos="fade-down" data-aos-delay="300">
                <div class="textwrap" id="DashLight" >
                   <h2><span></span>A quote from our CEO</h2>
 <!--
@@ -398,7 +451,7 @@
 -->
                    
                 <blockquote>
-                <p>This airdrop is a win win situation for all company stakeholders!  We are constantly looking for ways to add value to the experience of our loyal community and TIO holders. We feel that an ongoing airdrop of this size is the perfect way to both thank our community for their loyalty plus to assist new high potential ICOs in accessing our informed and ambitious community.</p>
+                <p>This airdrop is a win-win situation for all stakeholders.n We are constantly looking for ways to add value to the experience of our loyal community and TIO holders. We feel that an ongoing airdrop of this enormity is the perfect way to both thank our community for their loyalty and to assist new high-potential ICOs in accessing our informed and ambitious community.</p>
                 <cite>Jim Preissler</cite>
                 </blockquote>
                   <br>
@@ -509,7 +562,7 @@
                <div class="slogan" style="display: table;">
                   <h2><?php echo L::section7_title1; ?></h2>
                </div>
-               <h2 id="registerText"><?php echo L::section7_title2; ?></h2>
+               <h2 id="registerText" data-aos="fade-down" data-aos-delay="300"><?php echo L::section7_title2; ?></h2>
 <!--
                <div id="register-logo">
                   <div class="logo-btm"><a href="#"><img src="../img/footer-logo.png"></a></div>
@@ -527,8 +580,9 @@
                   });
                   </script>
                   -->
-               <div class="login">
+               <div class="login" data-aos="fade-up" data-aos-delay="300">
                   <!--	<h1>Pre-register Now</h1>-->
+<!--
                   <form method="post" class="RegisterForm" id="RegisterFormBottom" action="">
                      <div id="json-register-error-bottom"></div>
                      <div id="json-register-success-bottom"><?php echo L::section7_json_register_success; ?></div>
@@ -565,6 +619,16 @@
                         <button type="submit" id="pre-register-bottom-btn" class="btn btn-primary btn-block btn-large"><?php echo L::section7_pre_register_btn; ?></button>
                      </div>
                   </form>
+-->
+                   
+                   <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "4371728",
+	formId: "af7d1187-dc38-4b58-beb1-4ac6be7e63a5",
+	css: ""
+});
+</script>
                </div>
             </div>
             <div class="socialbar">
@@ -584,7 +648,7 @@
                   <h3><i class="fab fa-telegram"></i></h3>
                </a>
             </div>
-             <div id="risk-disclaimer">
+             <div id="risk-disclaimer" data-aos="fade-down" data-aos-delay="300">
                 <strong><?php echo L::section8_risk_disclaimer_title; ?></strong><br><?php echo L::section8_risk_disclaimer_text; ?> 
             </div>
             <div id="copyright">
