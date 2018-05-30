@@ -299,7 +299,15 @@
   hbspt.forms.create({
 	portalId: "4371728",
 	formId: "af7d1187-dc38-4b58-beb1-4ac6be7e63a5",
-	css: ""
+	css: "",
+      onFormSubmit: function(){
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+              event: 'formSubmissionSuccess',
+              formId: 'TopForm',
+              formName: 'Airdrops May \'18'
+          });
+      }
 });
 </script>
 
@@ -624,7 +632,15 @@
   hbspt.forms.create({
 	portalId: "4371728",
 	formId: "af7d1187-dc38-4b58-beb1-4ac6be7e63a5",
-	css: ""
+	css: "",
+      onFormSubmit: function(){
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+              event: 'formSubmissionSuccess',
+              formId: 'BottomForm',
+              formName: 'Airdrops May \'18'
+          });
+      }
 });
 </script>
                </div>
