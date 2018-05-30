@@ -10,8 +10,6 @@
     // Use special CloudFlare Headers to get real ip of user
     $ip = $_SERVER['REMOTE_ADDR'] = isset($_SERVER['HTTP_CF_CONNECTING_IP']) ? $_SERVER['HTTP_CF_CONNECTING_IP'] : $_SERVER['REMOTE_ADDR'];
 
-    //$ip = '23.79.224.0';
-
     $record = $reader->country($ip);
 
     $country_isoCode = $record->country->isoCode; // US
@@ -138,7 +136,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>trade.io - airdrops </title>
+        <title>trade.io Airdrop Registration - Sign Up to Win Your Share of 2 Million Tokens</title>
         <meta name="robot" content="index,follow">
         <meta name="copyright" content="Copyright © <?php echo date('Y');?> trade.io. All Rights Reserved.">
         <meta name="author" content="">
@@ -148,6 +146,8 @@
         <meta property="og:description" content="Enrich your portfolio with potentially hundreds of different Alt Coins trade.io will launch first-of-a-kind massive airdrop campaign to TIO Holders" />
         <meta property="og:image" content="https://airdrops.trade.io/img/airdrops.trade.io-pre-registration.jpg" />
         <meta name="revisit-after" content="30">
+        <meta name="description" content="The wait is finally over! We are giving away 2 million tokens per verified client to our loyal community and TIO holders. For a chance to be part of this exclusive Airdrop competition, simply register online.">
+        <meta name="keywords" content="Crypto currency, cryptocurrency, TIO, Airdrop, Airdrops, ICO Airdrops, ICO competition, cryptocurrency competition, registration, ICO, investment, finance, trading">
         <link rel="shortcut icon" type="image/x-icon" href="">
         <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
         <link rel="stylesheet" type="text/css" href="css/forms.css" media="screen">
