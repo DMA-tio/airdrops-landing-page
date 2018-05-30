@@ -9,7 +9,7 @@
     
     // Use special CloudFlare Headers to get real ip of user
     $ip = $_SERVER['REMOTE_ADDR'] = isset($_SERVER['HTTP_CF_CONNECTING_IP']) ? $_SERVER['HTTP_CF_CONNECTING_IP'] : $_SERVER['REMOTE_ADDR'];
-
+    $ip = '23.79.224.0';
     $record = $reader->country($ip);
 
     $country_isoCode = $record->country->isoCode; // US
@@ -339,7 +339,7 @@
   <div class="Cloud Background"></div>
 <!--  <svg viewBox="0 0 40 24" class="Cloud"><use xlink:href="#Cloud"></use></svg>-->
 </div>
-
+<div class="mountain"></div>
              <div class="bg-image"></div>
              </div>
          
@@ -375,8 +375,8 @@
          <!-- header simulation -->
          <div id="header_blank"></div>
          <!-- introduction - 3 features -->
-          <div id="Qualify" class="column-12" data-aos="fade-in">
-              <div class="column-6" data-aos="fade-right" data-aos-delay="300">
+          <div id="Qualify" class="column-12" >
+              <div class="column-6" >
          <h1>Enrich Your Portfolio</h1>
          <h3 class="subheaderTIO">With potentially hundreds of different Alt Coins, we're launching a first-of-a-kind massive airdrop campaign to TIO holders. <br><br>
                   Get tokens from TV-TWO, ICO Watchdog, INGOT Coin, DarcMatter, ZerEdge. Another 50 ICOs in the pipeline may make 100 million coins available for airdrop in the coming months.
@@ -384,7 +384,7 @@
             <a class="btn btn-primary btn-block btn-large" href="/downloads/PR_File.pdf" download="PR_File">Read the full PR here </a>
             </div>
               <br><br><br>
-              <div class="column-6" data-aos="fade-left" data-aos-delay="300">
+              <div class="column-6" >
             <h1>Who Can Qualify?</h1>
                <!-- the container that hold the features -->
 
