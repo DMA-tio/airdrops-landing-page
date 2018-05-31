@@ -618,7 +618,7 @@ function getFullURL() {
                });
                </script>
                -->
-            <div class="login" data-aos="fade-up" data-aos-delay="300">
+            <div class="login">
                 <!--	<h1>Pre-register Now</h1>-->
                 <!--
                   <form method="post" class="RegisterForm" id="RegisterFormBottom" action="">
