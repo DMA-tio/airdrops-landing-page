@@ -10,8 +10,6 @@ $reader = new Reader('GeoIP/GeoLite2-Country.mmdb');
 // Use special CloudFlare Headers to get real ip of user
 $ip = $_SERVER['REMOTE_ADDR'] = isset($_SERVER['HTTP_CF_CONNECTING_IP']) ? $_SERVER['HTTP_CF_CONNECTING_IP'] : $_SERVER['REMOTE_ADDR'];
 
-$ip = '23.79.224.0';
-
 $record = $reader->country($ip);
 
 $country_isoCode = $record->country->isoCode; // US
