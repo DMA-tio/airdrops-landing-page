@@ -466,7 +466,7 @@
 -->
                    
                 <blockquote>
-                <p>This airdrop is a win-win situation for all stakeholders.n We are constantly looking for ways to add value to the experience of our loyal community and TIO holders. We feel that an ongoing airdrop of this enormity is the perfect way to both thank our community for their loyalty and to assist new high-potential ICOs in accessing our informed and ambitious community.</p>
+                <p>This airdrop is a win-win situation for all stakeholders. We are constantly looking for ways to add value to the experience of our loyal community and TIO holders. We feel that an ongoing airdrop of this enormity is the perfect way to both thank our community for their loyalty and to assist new high-potential ICOs in accessing our informed and ambitious community.</p>
                 <cite>Jim Preissler</cite>
                 </blockquote>
                   <br>
