@@ -41,6 +41,10 @@ label#label-email-af7d1187-dc38-4b58-beb1-4ac6be7e63a5 {
     color:white;
     text-shadow:white 0px 0px 6px;
 }
+
+.hs_error_rollup {
+    display: none;
+}
 .languagepicker a {
     color: #ffffff;
     text-decoration: none;
@@ -303,7 +307,7 @@ input {
   border: none;
   outline: none;
   padding: 10px;
-  margin: 18px 0px 5px 0px;
+  /*margin: 18px 0px 5px 0px;*/
   font-size: 20px;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -383,7 +387,8 @@ fieldset.form-columns-2 {
 }
 
 span.hs-form-required {
-    display: none;
+    /*display: none;*/
+    color: #d76468;
 }
 
 input#email-8818173b-5098-40d4-86e9-f9bb88d06fde,
@@ -462,6 +467,9 @@ input.hs-button.primary.large {
     font-family: "Montserrat" !important;
     font-size: 19px;
     font-weight: 200;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 330px;
 }
 
 input.hs-button.primary.large:hover
@@ -493,7 +501,7 @@ box-shadow:#d76468 0px 0px 10px 0px !important;
     }
     
     #headline {
-        /* top: 50px; */
+         top: 35px;
     }
 
     div#register_footer > .hbspt-form {

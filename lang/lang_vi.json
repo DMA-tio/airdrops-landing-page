@@ -1,70 +1,54 @@
 {
-"section1": {
-    "line1": "TƯƠNG LAI CỦA GIAO DỊCH TIỀN ĐIỆN TỬ",
-    "line2": "HIỆN ĐANG MỞ ĐỂ ĐĂNG KÝ TRƯỚC",
-    "username_placeholder": "Tên người dùng",
-    "email_placeholder": "Email",
-    "password_placeholder": "Mật khẩu",
-    "confirm_password_placeholder": "Nhập lại mật khẩu",
-    "pre_register_btn": "ĐĂNG KÝ TRƯỚC",
-    "json_register_success": "Cám ơn bạn đã đăng ký!"
-},
- "section2": {
-    "line1": "Hãy là người đầu tiên đăng ký",
-    "point1": "Xác minh tài khoản đơn giản",
-    "point1_text": "Cập nhật tất cả khách hàng mới hiệu quả. Ít lo lắng hơn, nhiều niềm vui hơn!",
-    "point2": "Hỗ trợ nhanh 24/7",
-    "point2_text": "Các chuyên viên hỗ trợ của chúng tôi luôn trực 24/7 qua <a href='mailto:support@trade.io'>email</a>, <a href='javascript:void(0)' onclick='chatButton.onClick();'>trò chuyện trực tuyến</a>, hoặc điện thoại, vì vậy bạn có thể được trả lời sau vài phút cho bất cứ vấn đề nào mình có thể gặp.",
-    "point3": "Phí đặt cọc thấp",
-    "point3_text": "trade.io thu phí rút tiền thấp nhất trên thị trường, không thu phí đặt cọc và hoa hồng chỉ 0,1% cho mỗi giao dịch, vì vậy bạn có thể giữ được nhiều tiền hơn."
+  "section1": {
+    "line1": "PHÁT HÀNH TIỀN ẢO MIỄN PHÍ QUY MÔ LỚN",
+    "line2": "Một Chiến dịch Liên tục cho những Người nắm giữ TIO"
   },
-"section3": {
-    "line1": "Lý do bạn sẽ thích sàn giao dịch của chúng tôi",
-    "point1": "Cách bố trí gọn gàng và hiệu quả",
-    "point2": "Tiện ích có thể tùy chỉnh/di chuyển",
-    "point3": "Tạo và lưu đến 10 bố trí đặt trước (tương thích đa màn hình)",
-    "point4": "Hồ sơ có thể tùy chỉnh, bản tin, trò chuyện và nhiều tính năng khác."
-},
-"section4": {
-    "point1": "Nền tảng có thể tùy chỉnh hoàn toàn duy nhất trong ngành",
-    "point1_text": "Với tính linh động toàn diện, bạn có thể tạo môi trường giao dịch hoàn hảo của mình chỉ trong vài phút sau khi đăng ký mà không gây ảnh hưởng đến hiệu quả hay tốc độ.",
-    "point2": "Chỉ số kỹ thuật hỗ trợ bạn trong giao dịch",
-    "point2_text": "Các tiện ích lập biểu đồ mặc định của chúng 6oi và các công cụ kỹ thuật khác sẽ giúp bạn đánh giá dữ liệu lịch sử, hỗ trợ bạn điều chỉnh chiến lược giao dịch trong tương lai.",
-    "point3": "Thường xuyên có các cuộc thi và airdrop",
-    "point3_text": "Hãy hội tụ đủ điều kiện để nhận được lợi ích từ các đợt airdrop & khuyến mãi hào phóng của chúng tôi và nhận các giải thưởng thực sự, những kỳ nghỉ VIP sang trọng cũng như tiền tiêu lên đến 100.000 USD",
-    "point4": "Máy chủ quốc tế giúp giao dịch nhanh, không độ trễ",
-    "point4_text": "Chúng tôi hiểu rằng bạn cần giao dịch thật nhanh và hiệu quả. Chúng tôi sử dụng các máy chủ trên khắp thế giới để duy trì độ trễ ở mức thấp nhất, dù bạn chọn giao dịch ở đâu."
- },
-"section5": {
-    "title1": "TÌM HIỂU NỀN TẢNG SÀN GIAO DỊCH CỦA CHÚNG TÔI"
+  "section2": {
+    "title1": "Đa dạng hóa Danh mục đầu tư của Bạn",
+    "text1": "Với hàng trăm Alt Coin tiềm năng khác nhau, chúng tôi sẽ phát động một chiến dịch phát hành tiền ảo miễn phí quy mô lớn đầu tiên cho những người nắm giữ TIO.<br/><br/>Nhận token từ TV-TWO, ICO Watchdog, INGOT Coin, DarcMatter, ZerEdge. 50 đợt ICO khác trong quy trình này có thể tạo ra 100 triệu đồng tiền để phát hành miễn phí trong các tháng sắp tới.",
+    "read_more_btn": "Đọc toàn bộ PR tại đây",
+    "title2": "Những ai Có thể Đủ điều kiện?",
+    "text2": "Bất kỳ và mọi người nắm giữ TIO! Cộng đồng của chúng tôi được tự động hội đủ điều kiện hưởng lợi từ các đợt phát hành tiền ảo miễn phí ngẫu nhiên, với token từ các ICO có tiềm năng cao, những người đủ điều kiện trở thành khách hàng của các đơn vị Tư vấn về ICO của trade.io. Những đợt ICO như thế đã trải qua một quá trình kiểm tra bởi nhóm tư vấn về các quy trình AML, tính khả thi về mặt kỹ thuật và mức độ bền vững, và do đó đã được xác nhận là khoản đầu tư có tiềm năng cao bởi trade.io."
   },
-"section6": {
-    "title1": "Đào tạo tiền điện tử miễn phí",
-    "title2": "CHUỖI ĐÀO TẠO GIAO DỊCH TIỀN ĐIỆN TỬ SÀN GIAO DỊCH",
-    "video1_title" : "Nghiên cứu đồng tiền",
-    "video2_title" : "Để lại giao dịch",
-    "video3_title" : "Giao dịch các loại tiền điện tử khác nhau"
- },
-"section7": {
-    "title1": "Sự phát triển của giao dịch đã bắt đầu!",
-    "title2": "Đăng ký trước ngay",
-    "username_placeholder": "Tên người dùng",
-    "email_placeholder": "Email",
-    "password_placeholder": "Mật khẩu",
-    "confirm_password_placeholder": "Nhập lại mật khẩu",
-    "pre_register_btn": "ĐĂNG KÝ TRƯỚC",
-    "json_register_success": "Cám ơn bạn đã đăng ký!"
- },
-"section8": {
-    "risk_disclaimer_title": "Tuyên bố Miễn trừ Rủi ro",
-    "risk_disclaimer_text": "Có nhiều rủi ro liên quan đến việc sử dụng hệ thống giao dịch dựa trên Internet, bao gồm nhưng không giới hạn ở việc hỏng hóc phần cứng, phần mềm và kết nối Internet không thành công. Bạn đồng ý rằng chúng tôi sẽ không chịu trách nhiệm cho bất cứ giao tiếp không thành công, hư hỏng, lỗi, sự biến dạng hoặc độ trễ nào mà bạn có thể gặp khi giao dịch qua Dịch vụ. Đừng đầu tư vốn nhiều hơn khả năng chịu lỗ của bạn. Trước khi tiến hành bất cứ giao dịch nào như vậy, bạn nên đảm bảo hoàn toàn hiểu rõ rủi ro liên quan và tìm kiếm tư vấn độc lập khi cần thiết. Thông tin này không nhắm đến/dự kiến cho việc gửi đến hay sử dụng của người dân của một số quốc gia/khu vực pháp lý thuộc danh sách chế tài OFAC, bao gồm nhưng không giới hạn ở Iran, Triều Tiên, Trung Quốc, Hàn Quốc và Mỹ. Có áp dụng điều khoản và điều kiện."
- },
-"error_msgs": {
-    "username": "*Tên người dùng không thể bỏ trống!",
-    "email": "*Email không hợp lệ!",
-    "password": "*Mật khẩu phải có 8 ký tự, một chữ viết thường, một chữ viết hoa, một số và một ký tự đặc biệt!",
-    "confirm_password": "*Lặp lại Mật khẩu phải có 8 ký tự, một chữ viết thường, một chữ viết hoa, một số và một ký tự đặc biệt!",
-    "passwords_do_not_match": "*Mật khẩu và Lặp lại Mật khẩu không khớp nhau!",
-    "captcha": "*Captcha không hợp lệ!"
+  "section3": {
+    "title1": "Có bao nhiêu token được chào bán?",
+    "text1": "Chúng tôi sẽ chào bán ít nhấ 2 triệu token cho mỗi khách hàng được xác minh, đặc biệt là cho những người nắm giữ TIO trung thành.",
+    "title2": "Những token nào sẽ được phát hành miễn phí?",
+    "text2": "Những token mà chúng tôi phát hành miễn phí sẽ chỉ đến từ những khách hàng đã vượt qua được quy trình kiểm tra nghiêm ngặt của chúng tôi.<br/><br/>Cho tới nay, những token này bao gồm: icowatchdog, ingot, darkmatter, zeroedge và TV-TWO."
+  },
+  "section4": {
+    "line1": "Cách thức hoạt động?",
+    "point1_title": "Tham gia Nhóm truyền tin của Chúng tôi",
+    "point1_text": "Những thành viên cộng đồng, những người tham gia tích cực vào các nhóm truyền tin của công ty sẽ tự động trở thành người hưởng lợi một tỷ lệ phần trăm token nhất định",
+    "point2_title": "Đóng góp vào ICO",
+    "point2_text": "Những người nắm giữ TIO hiện tại, những người tích cực tham gia vào đợt ICO của khách hàng qua trang tham gia đợt phát hành tiền ảo miễn phí sắp tới sẽ hội đủ điều kiện nhận số lượng Alt Coin bổ sung lớn. Mức phân bổ lớn nhất là 100.000.",
+    "point3_title": "Các TIO của bạn Cho phép Bạn Tiếp cận",
+    "point3_text": "trade.io sẽ chụp ảnh lưu nhanh của tất cả các ví nắm giữ TIO - bất kỳ ai nắm giữ trên 2.500 TIO sẽ hội đủ điều kiện nhận tiền ảo miễn phí bổ sung. Đây sẽ là một quy trình liên tục cho đợt ICO được phát hành với chúng tôi.",
+    "point4_title": "Thưởng Bổ sung",
+    "point4_text": "Những người nắm giữ TIO trong đợt ICO qua liên kết trade.io sẽ hội đủ điều kiện nhận được các khoản thưởng bổ sung vượt quá những gì mà ICO khách hàng đưa ra."
+  },
+  "section5": {
+    "quote_title": "Trích dẫn từ CEO của chúng tôi",
+    "quote_text": "Đợt phát hành tiền ảo miễn phí này sẽ là tình huống thắng-thắng cho mọi bên tham gia. Chúng tôi không ngừng tìm kiếm các cách để gia tăng giá trị cho trải nghiệm của cộng đồng trung thành và những người nắm giữ TIO. Chúng tôi cảm thấy rằng việc phát hành tiền ảo miễn phí liên tục ở tầm cỡ này là cách hoàn hảo để cám ơn cộng đồng của chúng tôi về sự trung thành của họ đồng thời hỗ trợ các đợt ICO có tiềm năng cao mới trong việc tiếp cận cộng đồng hiểu biết và tham vọng của chúng tôi.",
+    "quote_text_name": "Jim Preissler"
+  },
+  "section6": {
+    "title1": "ĐĂNG KÝ THAM GIA ĐỢT PHÁT HÀNH TIỀN ẢO MIỄN PHÍ QUY MÔ LỚN CỦA CHÚNG TÔI",
+    "title2": "Các đợt ICO được kiểm tra nghiêm ngặt đang phát hành miễn phí hàng triệu token thông qua chương trình này"
+  },
+  "section7": {
+    "risk_disclaimer_title": "Khước từ Trách nhiệm Rủi ro",
+    "risk_disclaimer_text": "Có các rủi ro liên quan đến việc sử dụng hệ thống giao dịch dựa trên Internet bao gồm, nhưng không giới hạn việc phần cứng, phần mềm và kết nối Internet gặp sự cố. Tuy nhiên, bạn đồng ý rằng chúng tôi sẽ không chịu trách nhiệm về lỗi truyền thông, sự cố, lỗi, sai lệch, hoặc chậm trễ mà bạn có thể gặp phải khi giao dịch qua các Dịch vụ. Đừng đầu tư nhiều tiền vốn hơn số tiền bạn có khả năng để mất. Trước khi thực hiện bất kỳ giao dịch nào như vậy, bạn nên đảm bảo rằng bạn hiểu đầy đủ rủi ro có liên quan và tìm kiếm sự tư vấn độc lập nếu cần. Thông tin này không dành cho việc phân phối hoặc sử dụng bởi, những người ở một số quốc gia/khu vực pháp lý nhất định trên danh sách trừng phạt OFAC, bao gồm nhưng không giới hạn Iran, Bắc Triều Tiên, Trung Quốc, Hàn Quốc và Mỹ. Điều khoản và điều kiện áp dụng.",
+    "copyright" : "© trade.io 2018"
+  },
+  "form": {
+    "firstname": "Tên đầu tiên",
+    "lastname": "Họ",
+    "email": "Email",
+    "register_btn": "ĐĂNG KÝ",
+    "thankyoumsg": "Cảm ơn bạn đã gửi biểu mẫu."
+  },
+  "error_msgs": {
+    "required": "Vui lòng hoàn tất trường bắt buộc này."
   }
 }

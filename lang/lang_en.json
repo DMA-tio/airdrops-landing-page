@@ -1,70 +1,54 @@
 {
 "section1": {
-    "line1": "MASSIVE AIRDROP", 
-    "line2": "An Ongoing Campaign For TIO Holders",
-    "username_placeholder": "Username",
-    "email_placeholder": "Email",
-    "password_placeholder": "Password",
-    "confirm_password_placeholder": "Re-type Password",
-    "pre_register_btn": "REGISTER",
-    "json_register_success": "Thank you for registering!"
+    "line1": "MASSIVE AIRDROP",
+    "line2": "An Ongoing Campaign For TIO Holders"
 },
 "section2": {
-    "line1": "How does it work",
-    "point1": "Join Our Telegram",
-    "point1_text": "Community members who actively engage in the company’s telegram groups will automatically be a beneficiary to a set percentage of tokens",
-    "point2": "Contribute To The ICO",
-    "point2_text": "Existing TIO Holders who actively participate into the ICO of the client via the upcoming airdrop participation page will be eligible to receive a significant number of additional Alt Coins. The top raffle allocation is 100,000.",
-    "point3": "Your TIOs Give You Access",
-    "point3_text": "trade.io will take a snapshot of all wallets holding TIO - anybody holding over 2,500 TIOs will be eligible to receive an additional airdrop. This will be an ongoing process for any ICO launched with us. "
-  },
+    "title1": "Enrich Your Portfolio",
+    "text1": "With potentially hundreds of different Alt Coins, we're launching a first-of-a-kind massive airdrop campaign to TIO holders. <br/><br/>Get tokens from TV-TWO, ICO Watchdog, INGOT Coin, DarcMatter, ZerEdge. Another 50 ICOs in the pipeline may make 100 million coins available for airdrop in the coming months.",
+    "read_more_btn": "Read the full PR here ",
+    "title2": "Who Can Qualify?",
+    "text2": "Any and all TIO holders! Our community is automatically qualified to benefit from random airdrops, with tokens from the high potential ICOs who qualify as clients to the trade.io ICO Consulting arm. Such ICOs have undergone a vetted process by the consulting team for AML processes, technical viability and longevity, and as a result have been verified as a high potential investment by trade.io."
+},
 "section3": {
-    "line1": "Contribute To The ICO",
-    "point1": "Clean and crisp layout",
-    "point2": "Customizable/Movable widgets",
-    "point3": "Create and save up to 10 preset layouts (multi-screen compatible)",
-    "point4": "Customizable profile, newsfeed, chat, and more."
+    "title1": "How many tokens are on offer?",
+    "text1": "We will offer at the very least, 2 million tokens per verified client specifically to our loyal TIO holders.",
+    "title2": "Which tokens will we be giving away?",
+    "text2": "The tokens we airdrop will only ever be from clients who have already passed our strict vetting processes.<br/><br/>So far, these include: icowatchdog, ingot, darkmatter, zeroedge and TV-TWO."
   },
 "section4": {
-    "point1": "Your TIOs Give You Access",
-    "point1_text": "With powerful flexibility you can create your perfect trading environment in just a few minutes after signing up, without compromising on performance or speed.",
-    "point2": "Technical indicators to help with your trading",
-    "point2_text": "Our default charting widgets and other technical tools will allow you to review historical data that will help you to tailor your future trading strategy.",
-    "point3": "Regular competitions and airdrops",
-    "point3_text": "Be eligible to benefit from generous airdops & promotions to win real prizes, luxury VIP holidays as well as up to $100,000 spending money",
-    "point4": "Worldwide servers for fast trading, no latency",
-    "point4_text": "We understand that you need to trade with great power and great speed. We utilise servers worldwide to keep latency to a minimum, wherever you choose to trade from."
+    "line1": "How does it work",
+    "point1_title": "Join Our Telegram",
+    "point1_text": "Community members who actively engage in the company’s telegram groups will automatically be a beneficiary to a set percentage of tokens",
+    "point2_title": "Contribute To The ICO",
+    "point2_text": "Existing TIO Holders who actively participate into the ICO of the client via the upcoming airdrop participation page will be eligible to receive a significant number of additional Alt Coins. The top raffle allocation is 100,000.",
+    "point3_title": "Your TIOs Give You Access",
+    "point3_text": "trade.io will take a snapshot of all wallets holding TIO - anybody holding over 2,500 TIOs will be eligible to receive an additional airdrop. This will be an ongoing process for any ICO launched with us.",
+    "point4_title": "Additional Bonus",
+    "point4_text": "TIO holders who participate in the ICO via the trade.io link will be eligible to receive additional bonuses over and above what the client ICO is offering."
   },
 "section5": {
-    "title1": "WALKTRHOUGH OF OUR BETA EXCHANGE PLATFORM"
+    "quote_title": "A quote from our CEO",
+    "quote_text": "This airdrop is a win-win situation for all stakeholders. We are constantly looking for ways to add value to the experience of our loyal community and TIO holders. We feel that an ongoing airdrop of this enormity is the perfect way to both thank our community for their loyalty and to assist new high-potential ICOs in accessing our informed and ambitious community.",
+    "quote_text_name": "Jim Preissler"
   },
 "section6": {
-    "title1": "Free Crypto Education",
-    "title2": "EXCHANGE CRYPTO TRADING TRAINING SERIES",
-    "video1_title" : "Researching The Coins",
-    "video2_title" : "Leaving The Trade",
-    "video3_title" : "Trading Different Cryptocurrency Types"
+    "title1": "REGISTER FOR OUR MASSIVE AIRDROP",
+    "title2": "Strictly-vetted ICOs are airdropping millions of tokens through this program"
   },
 "section7": {
-    "title1": "REGISTER FOR OUR MASSIVE AIRDROP",
-    "title2": "Strictly-vetted ICOs are airdropping millions of tokens through this program",
-    "username_placeholder": "Username",
-    "email_placeholder": "Email",
-    "password_placeholder": "Password",
-    "confirm_password_placeholder": "Re-type Password",
-    "pre_register_btn": "REGISTER",
-    "json_register_success": "Thank you for registering!"
-  },
-"section8": {
     "risk_disclaimer_title": "Risk Disclaimer",
-    "risk_disclaimer_text": "There are risks associated with utilizing an Internet-based trading system including, but not limited to, the failure of hardware, software, and Internet connections. You agree that we shall not be responsible for any communication failures, disruptions, errors, distortions, or delays you may experience when trading via the Services, however caused. Do not invest more capital than you can afford to lose. Before undertaking any such transactions you should ensure that you fully understand the risks involved and seek independent advice if necessary. This information is not directed/intended for distribution to or use by residents of certain countries/jurisdictions on the OFAC sanctioned list including but not limited to Iran, North Korea, China, South Korea and USA. Terms and conditions apply."
+    "risk_disclaimer_text": "There are risks associated with utilizing an Internet-based trading system including, but not limited to, the failure of hardware, software, and Internet connections. You agree that we shall not be responsible for any communication failures, disruptions, errors, distortions, or delays you may experience when trading via the Services, however caused. Do not invest more capital than you can afford to lose. Before undertaking any such transactions you should ensure that you fully understand the risks involved and seek independent advice if necessary. This information is not directed/intended for distribution to or use by residents of certain countries/jurisdictions on the OFAC sanctioned list including but not limited to Iran, North Korea, China, South Korea and USA. Terms and conditions apply.",
+    "copyright" : "© trade.io 2018"
   },
-"error_msgs": {
-    "username": "*Username cannot be empty!",
-    "email": "*Email is invalid!",
-    "password": "*Password must have 8 chars, one lowercase, one uppercase, one number, and one special character!",
-    "confirm_password": "*Repeat Password must have 8 chars, one lowercase, one uppercase, one number, and one special character!",
-    "passwords_do_not_match": "*Password and Repeat password do not match!",
-    "captcha": "*Captcha is invalid!"
+  "form": {
+    "firstname": "First name",
+    "lastname": "Last name",
+    "email": "Email",
+    "register_btn": "Register",
+    "thankyoumsg": "Thanks for submitting the form."
+  },
+  "error_msgs": {
+    "required": "Please complete this required field."
   }
 }

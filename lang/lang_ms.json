@@ -1,70 +1,54 @@
 {
-"section1": {
-    "line1": "MASA DEPAN DAGANGAN KRIPTO",
-    "line2": "SEKARANG DIBUKA UNTUK PRA-PENDAFTARAN",
-    "username_placeholder": "Nama Pengguna",
-    "email_placeholder": "E-mel",
-    "password_placeholder": "Kata Laluan",
-    "confirm_password_placeholder": "Taipkan Semula Kata Laluan",
-    "pre_register_btn": "PRA-DAFTAR",
-    "json_register_success": "Terima kasih kerana mendaftar!"
-},
-"section2": {
-    "line1": "Jadilah orang pertama yang mendaftar",
-    "point1": "Pengesahan Akaun Mudah",
-    "point1_text": "Penerimaan yang cekap bagi semua pelanggan baru. Kurang masalah, lebih banyak kelebihan!",
-    "point2": "Sokongan Responsif 24/7",
-    "point2_text": "Pakar sokongan kami sentiasa bersedia 24/7 melalui <a href='mailto:support@trade.io'>e-mel</a>, <a href='javascript:void(0)' onclick='chatButton.onClick();'>sembang langsung</a>, atau telefon supaya anda boleh mendapatkan jawapan dalam masa beberapa minit untuk sebarang isu yang mungkin anda hadapi.",
-    "point3": "Bayaran Deposit Rendah",
-    "point3_text": "trade.io mengenakan bayaran pengeluaran yang paling rendah dalam pasaran, tiada bayaran untuk deposit dan komisen tetap 0.1% untuk setiap dagangan, jadi anda boleh menyimpan lebih banyak wang anda."
-  },
-"section3": {
-    "line1": "Kenapa anda akan suka bursa kami",
-    "point1": "Susun atur yang bersih dan kemas",
-    "point2": "Widget boleh ubah/boleh alih",
-    "point3": "Buat dan simpan sehingga 10 susun atur pratetap (serasi berbilang skrin)",
-    "point4": "Profil boleh suai, suapan berita, sembang dan banyak lagi."
-},
-"section4": {
-    "point1": "Satu-satunya platform yang boleh disesuaikan sepenuhnya dalam industri",
-    "point1_text": "Dengan fleksibiliti yang hebat, anda boleh membuat persekitaran dagangan yang sempurna dalam masa beberapa minit selepas mendaftar, tanpa menjejaskan prestasi atau kelajuan.",
-    "point2": "Penunjuk teknikal untuk membantu dagangan anda",
-    "point2_text": "Widget carta lalai dan alat teknikal yang lain akan membolehkan anda mengkaji semula data sejarah yang akan membantu anda menyesuaikan strategi dagangan anda yang akan datang.",
-    "point3": "Pertandingan dan airdrop yang tetap",
-    "point3_text": "Layakkan diri untuk mendapat manfaat daripada airdops & promosi untuk memenangi hadiah sebenar, percutian VIP yang mewah serta sehingga $100,000 wang belanja",
-    "point4": "Pelayan di seluruh dunia untuk dagangan pantas, tiada kependaman",
-    "point4_text": "Kami faham bahawa anda perlu berdagang dengan kuasa dan kelajuan yang hebat. Kami menggunakan pelayan di seluruh dunia untuk memastikan kependaman minimum, di mana-mana sahaja anda memilih untuk berdagang."
-  },
-"section5": {
-    "title1": "LINTAS SEMAK PLATFORM BURSA BETA KAMI"
-  },
-"section6": {
-    "title1": "Pendidikan Kripto Percuma",
-    "title2": "SIRI LATIHAN DAGANGAN KRIPTO BURSA",
-    "video1_title" : "Mengkaji Syiling",
-    "video2_title" : "Meninggalkan Dagangan",
-    "video3_title" : "Jenis Mata Wang Kripto Berbeza"
- },
-"section7": {
-    "title1": "Revolusi dagangan telah bermula!",
-    "title2": "Pra-Daftar Sekarang",
-    "username_placeholder": "Nama Pengguna",
-    "email_placeholder": "E-mel",
-    "password_placeholder": "Kata Laluan",
-    "confirm_password_placeholder": "Taipkan Semula Kata Laluan",
-    "pre_register_btn": "PRA-DAFTAR",
-    "json_register_success": "Terima kasih kerana mendaftar!"
-  },
-"section8": {
-    "risk_disclaimer_title": "Penafian Risiko",
-    "risk_disclaimer_text": "Terdapat risiko yang berkaitan dengan penggunaan sistem dagangan berasaskan Internet termasuk, tetapi tidak terhad kepada, kegagalan perkakasan, perisian dan sambungan Internet. Anda bersetuju bahawa kami tidak akan bertanggungjawab terhadap apa-apa kegagalan komunikasi, gangguan, kesilapan atau kelewatan yang mungkin anda alami semasa berdagang melalui Perkhidmatan ini, walau apa-apa pun sebabnya. Jangan melabur lebih daripada modal yang anda mampu untuk kehilangan. Anda perlu memastikan bahawa anda memahami sepenuhnya risiko yang terlibat dan mendapatkan nasihat daripada pihak bebas jika perlu, sebelum membuat sebarang transaksi yang sedemikian. Maklumat ini tidak dihalakan/ditujukan untuk diedarkan kepada atau digunakan oleh penduduk negara/bidang kuasa tertentu pada senarai sekatan OFAC termasuk tetapi tidak terhad kepada Iran, Korea Utara, China, Korea Selatan dan AS. *Tertakluk pada terma dan syarat."
-  },
-"error_msgs": {
-    "username": "*Nama pengguna tidak boleh dibiarkan kosong!",
-    "email": "*E-mel tidak sah!",
-    "password": "*Kata laluan mesti mempunyai 8 aksara, satu huruf kecil, satu huruf besar, satu nombor dan satu aksara khas!",
-    "confirm_password": "*Ulang Kata laluan mesti mempunyai 8 aksara, satu huruf kecil, satu huruf besar, satu nombor dan satu aksara khas!",
-    "passwords_do_not_match": "*Kata Laluan dan Ulang Kata Laluan tidak sepadan!",
-    "captcha": "*Captcha tidak sah!"
-  }
+    "section1": {
+        "line1": "AIRDROP BESAR-BESARAN",
+        "line2": "Kempen Berterusan Untuk Pemegang TIO"
+    },
+    "section2": {
+        "title1": "Kukuhkan Portfolio Anda",
+        "text1": "Dengan ratusan Alt Coins berbeza yang berpotensi, kami melancarkan kempen airdrop besar-besaran pertama seumpamanya kepada pemegang TIO.<br/><br/>Dapatkan token daripada TV-TWO, ICO Watchdog, INGOT Coin, DarcMatter, ZerEdge. 50 ICO lagi dalam saluran mungkin menghasilkan 100 juta syiling untuk airdrop dalam tempoh beberapa bulan yang akan datang.",
+        "read_more_btn": "Baca PR penuh di sini",
+        "title2": "Siapakah yang Layak?",
+        "text2": "Mana-mana dan semua pemegang TIO! Komuniti kami layak secara automatik untuk mendapatkan manfaat daripada airdrop rawak, dengan token daripada ICO berpotensi tinggi yang layak sebagai pelanggan kepada bahagian trade.io ICO Consulting. ICO tersebut perlu melalui proses pemeriksaan oleh pasukan perundingan untuk proses AML, kedayamajuan teknikal dan kelanjutan usia, dan apabila keputusan disahkan sebagai pelaburan berpotensi tinggi oleh trade.io."
+    },
+    "section3": {
+        "title1": "Berapakah bilangan token yang ditawarkan?",
+        "text1": "Kami akan menawarkan sekurang-kurangnya 2 juta token bagi setiap pelanggan yang disahkan, khusus bagi pemegang TIO kami yang setia. ",
+        "title2": "Token mana yang akan diberikan?",
+        "text2": "Token yang kami airdrop hanyalah daripada pelanggan yang telah lulus proses pemeriksaan kami yang ketat. <br/><br/>Setakat ini ialah: icowatchdog, ingot, darkmatter, zeroedge dan TV-TWO."
+    },
+    "section4": {
+        "line1": "Bagaimanakah caranya?",
+        "point1_title": "Sertai Telegram Kami",
+        "point1_text": "Ahli komuniti yang terlibat secara aktif dalam kumpulan telegram syarikat akan secara automatik menjadi penerima bagi peratusan token yang ditetapkan",
+        "point2_title": "Sumbangan Kepada ICO",
+        "point2_text": "Pemegang TIO sedia ada yang mengambil bahagian secara aktif dalam ICO pelanggan melalui halaman penyertaan airdrop yang akan datang akan layak menerima sejumlah besar Alt Coins tambahan. Peruntukan cabutan teratas ialah 100,000.",
+        "point3_title": "TIO Anda Memberi Anda Akses",
+        "point3_text": "trade.io akan mengambil petikan skrin semua dompet yang memegang TIO - sesiapa yang memegang lebih daripada 2,500 TIO akan layak menerima airdrop tambahan. Ini merupakan proses berterusan untuk mana-mana ICO yang dilancarkan dengan kami.",
+        "point4_title": "Bonus Tambahan",
+        "point4_text": "Pemegang TIO yang mengambil bahagian dalam ICO melalui pautan trade.io akan layak menerima bonus tambahan melebihi apa yang ICO pelanggan tawarkan."
+    },
+    "section5": {
+        "quote_title": "Petikan daripada CEO kami",
+        "quote_text": "Airdrop ialah situasi menang-menang bagi semua pihak berkepentingan. Kami secara berterusan mencari cara untuk menambah nilai pada pengalaman komuniti dan pemegang TIO kami yang setia. Kami rasakan bahawa airdrop yang berterusan sebesar ini ialah cara yang terbaik untuk berterima kasih kepada komuniti kami atas kesetiaan mereka dan membantu CIO berpotensi tinggi yang baru dalam mengakses komuniti kami yang bermaklumat dan bercita-cita tinggi.",
+        "quote_text_name": "Jim Preissler"
+    },
+    "section6": {
+        "title1": "DAFTAR UNTUK AIRDROP BESAR-BESARAN KAMI",
+        "title2": "ICO yang diperiksa ketat melakukan airdrop jutaan token melalui program ini"
+    },
+    "section7": {
+        "risk_disclaimer_title": "Penafian Risiko",
+        "risk_disclaimer_text": "Terdapat risiko yang berkaitan dengan penggunaan sistem dagangan berasaskan Internet termasuk, tetapi tidak terhad kepada, kegagalan perkakasan, perisian dan sambungan Internet. Anda bersetuju bahawa kami tidak akan bertanggungjawab terhadap apa-apa kegagalan komunikasi, gangguan, kesilapan atau kelewatan yang mungkin anda alami semasa berdagang melalui Perkhidmatan ini, walau apa-apa pun sebabnya. Jangan melabur lebih daripada modal yang anda mampu untuk kehilangan. Anda perlu memastikan bahawa anda memahami sepenuhnya risiko yang terlibat dan mendapatkan nasihat daripada pihak bebas jika perlu, sebelum membuat sebarang transaksi yang sedemikian. Maklumat ini tidak dihalakan/ditujukan untuk diedarkan kepada atau digunakan oleh penduduk negara/bidang kuasa tertentu pada senarai disekat OFAC termasuk tetapi tidak terhad kepada Iran, Korea Utara, China, Korea Selatan dan AS. Tertakluk pada terma dan syarat.",
+        "copyright" : "© trade.io 2018"
+    },
+    "form": {
+        "firstname": "Nama pertama",
+        "lastname": "Nama terakhir",
+        "email": "E-mel",
+        "register_btn": "DAFTAR",
+        "thankyoumsg": "Terima kasih kerana menyerahkan borang."
+    },
+    "error_msgs": {
+        "required": "Sila lengkapkan medan yang diperlukan ini."
+    }
 }

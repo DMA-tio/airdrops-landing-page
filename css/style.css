@@ -1577,7 +1577,7 @@ video {
 #headline span {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     text-shadow: black 0px 0px 5px;
-    letter-spacing: 0.25rem;
+    /*letter-spacing: 0.25rem;*/
 }
 
 #play {
@@ -1622,6 +1622,13 @@ video {
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     transition: all 0.2s ease;
+}
+.ar .subheaderTIO {
+    text-align: right;
+}
+
+ul.hs-error-msgs.inputs-list {
+    line-height: 25px !important;
 }
 
 #header-btn {
@@ -3431,7 +3438,7 @@ div#footer {
 }
     #logo
     {
-        /* top:100px; */
+        top: 85px;
     }
 
 }
@@ -3457,7 +3464,7 @@ div#footer {
 }
     
     #logo {
-        /* top: 100px; */
+         top: 85px;
     }
     
     #site-menu {
