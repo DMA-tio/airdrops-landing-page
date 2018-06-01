@@ -329,7 +329,7 @@ blockquote:before {
 }
 
 blockquote p {
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "Montserrat", sans-serif;
     padding: 0;
     font-size: 1.1rem;
     line-height: 1.6;
@@ -338,10 +338,13 @@ blockquote p {
 
 blockquote cite {
     display: block;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.4rem;
     font-style: normal;
     line-height: 1.5;
+    color: #4A4A44;
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 blockquote cite:before {
@@ -430,6 +433,7 @@ div#ICOs {
     background: rgba(31, 43, 77, 0.27);
     border-radius: 40px;
     width: 85%;
+    margin-top: 50px;
 }
 
 .column-12 {
@@ -499,8 +503,8 @@ div#ICOs {
 {
 /*    width:70%;*/
     margin:auto;
-    font-size:1.5rem !important;
-    line-height: 2.4rem !important;
+    font-size:1.2rem !important;
+    line-height: 1.1rem !important;
     text-align:center;
 }
 #Offer
@@ -513,6 +517,8 @@ div#ICOs {
     padding:2rem;
     /* box-shadow: black 0px 0px 4px 2px; */
     z-index: 99999;
+    padding-top: 60px;
+    padding-bottom: 70px;
 }
 
 #Offer h1
@@ -520,6 +526,12 @@ div#ICOs {
     text-align:center;
     margin:auto;
     padding-bottom:1rem;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#Offer h1:nth-of-type(2) {
+  margin-top: 30px;
 }
 
 .Qualifications
@@ -817,8 +829,10 @@ body {
 
 .font-light {
     font-family: 'Montserrat';
-    font-weight: 100;
-    font-size: 3rem;
+    font-weight: bold;
+    font-size: 2rem;
+    display: block;
+    padding-top: 10px;
 }
 
 .font-regular {
@@ -838,6 +852,9 @@ body {
     font-family: 'source_sans_proitalic', Helvetica, Arial, sans-serif!important;
 }
 
+.btn-block.btn-large {
+  font-size: 18px;
+}
 
 /* headlines */
 
@@ -856,7 +873,7 @@ h2 {
 
 h3 {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 48px;
     color: #4a4a4a;
 }
@@ -1062,6 +1079,14 @@ video#bgvid {
     padding-bottom: 30px;
     color: #4d4d4d;
     line-height: 22px;
+}
+
+
+
+/* form */
+
+.hs-form-field {
+  margin-bottom: 10px;
 }
 
 
@@ -2664,7 +2689,7 @@ div#footer {
     vertical-align: top;
     color: #ffffff;
     font-family: 'Montserrat', Helvetaica, Arial, sans-serif;
-    top: -15px;
+    top: 30px;
     position: relative;
 }
 
