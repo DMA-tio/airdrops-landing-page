@@ -794,6 +794,16 @@ div#window {
 	opacity: 0.8;
 }
 
+a#airdrop-lp-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*__Media Queries god damn it! ____________________________*/
+/*__________________________________________________________*/
+
+
 @-webkit-keyframes flap-r {
 	0%,
 	10% {
