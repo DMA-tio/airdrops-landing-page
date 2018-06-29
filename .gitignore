@@ -3,4 +3,3 @@
 langcache/*
 !langcache/README.md
 /vendor
-.DS_Store
