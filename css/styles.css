@@ -55,7 +55,7 @@ h4 {
 	color: #bdbdbd;
 	z-index: 2;
 	position: relative;
-	box-shadow: black 0px -6px 10px -5px;
+	/* box-shadow: black 0px -6px 10px -5px; */
 	margin-bottom: 8rem;
 }
 
@@ -207,7 +207,7 @@ textarea {
 	background-image: radial-gradient(circle, #9be4df 0%, #127984 70%, #08446f 100%);
 	position: relative;
 	overflow: hidden;
-	box-shadow: inset black 0px 7px 10px -5px;
+	/* box-shadow: inset black 0px 7px 10px -5px; */
 }
 
 .img1 {
@@ -217,8 +217,23 @@ textarea {
 	background-size: cover;
 	z-index: 1;
 	position: relative;
-	background-position-y: bottom;
 	background-repeat-y: no-repeat;
+	background-size: 108% 100%;
+	background-position-x: -25px;
+	background-position-y: 2px;
+}
+.trees {
+    background-image: url(../images/trees.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    z-index: 2;
+    position: relative;
+    background-repeat: no-repeat;
+    /* background-size: 101% 100%; */
+    background-position-x: right;
+    background-position-y: bottom;
+    top: -371px;
 }
 
 #Clouds {
@@ -641,7 +656,6 @@ textarea {
 	user-select: none;
 	opacity: 0.9;
 	z-index: 0;
-	width: 56%;
 }
 
 @-webkit-keyframes FadeIn {
@@ -792,6 +806,7 @@ div#window {
 	background-size: 104% 100%;
 	background-position: center;
 	opacity: 0.8;
+	box-shadow: inset black 0px 0px 13px 1px;
 }
 
 a#airdrop-lp-link {
