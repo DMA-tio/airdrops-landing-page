@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Airdrops Portal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css">
+ 	<link rel="stylesheet" href="css/bootstrap.css">
+ 	<script src="js/jquery.js"></script>
+ 	<script src="js/bootstrap.js"></script>
+	<script src="js/main.js"></script>
+    <script src="js/overlay_text.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!--
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    </div>
+  </div>
+</nav>
+-->
+
+<div class="headerContainer">
+	<div class="headerContent">
+		<h1>MASSIVE AIRDROP</h1>
+		<h3>An Ongoing Campaign From trade.io</h3>
+		<h5>Millions of tokens being airdropped through the trade.io airdrop <br> program every day.</h5>
+	</div>
+
+	<div class="sun"></div>
+	<div class="img1"></div>
+	<div id="Clouds">
+                <div class="Cloud Foreground"></div>
+                <div class="Cloud Background"></div>
+                <div class="Cloud Foreground"></div>
+                <div class="Cloud Background"></div>
+                <div class="Cloud Foreground"></div>
+                <div class="Cloud Background"></div>
+                <div class="Cloud Background"></div>
+                <div class="Cloud Foreground"></div>
+                <div class="Cloud Background"></div>
+                <div class="Cloud Background"></div>
+            </div>
+	<div id="pictureframe">
+  <div id="bird">
+    <div id="body2"></div>
+    <div id="body1"></div>
+    <div id="wing-l"></div>  
+    <div id="wing-r"></div>  
+  </div>
+</div>
+	<div id="window"></div>
+
+</div>
+
+
+
+<!-- Container (TOUR Section) -->
+<div id="tour" class="bg-1">
+  <div class="container">
+<!--
+    <h3 class="text-center">TOUR DATES</h3>
+    <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
+-->
+	  
+	    <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">CURRENT &amp; UPCOMING</a></li>
+<!--    <li><a data-toggle="tab" href="#menu1">UPCOMING</a></li>-->
+    <li><a data-toggle="tab" href="#menu2">PAST</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+         <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+		<div class="status activeA"><h2>ACTIVE</h2></div>
+          <img src="images/airdrop_logos/xchangrate-logo.png" alt="Paris" width="400" height="300">
+          <p><strong>2.5 Million Tokens</strong></p>
+          <p>Blockchain casino where everyone's a winner.</p>
+			<p class="dates">Open Since:<span>21/03/2019</span></p>
+			<p class="dates">Ends:<span>31/03/2019</span></p>
+         	<button class="btn Open" data-toggle="modal" data-target="#myModal" id="card1-more-info">MORE INFO</button>
+			<button class="btn" data-toggle="modal" data-target="#myModal" id="card1-get-airdrop">GET AIRDROP</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+		<div class="status activeA"><h2>ACTIVE</h2></div>
+          <img src="images/airdrop_logos/xchangrate-logo.png" alt="Paris" width="400" height="300">
+          <p><strong>2.5 Million Tokens</strong></p>
+          <p>Blockchain casino where everyone's a winner.</p>
+			<p class="dates">Open Since:<span>21/03/2019</span></p>
+			<p class="dates">Ends:<span>31/03/2019</span></p>
+         	<button class="btn Open" data-toggle="modal" data-target="#myModal" id="card2-more-info">MORE INFO</button>
+			<button class="btn" data-toggle="modal" data-target="#myModal" id="card2-get-airdrop">GET AIRDROP</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+		<div class="status activeA"><h2>ACTIVE</h2></div>
+          <img src="images/airdrop_logos/xchangrate-logo.png" alt="Paris" width="400" height="300">
+          <p><strong>2.5 Million Tokens</strong></p>
+          <p>Blockchain casino where everyone's a winner.</p>
+			<p class="dates">Open Since:<span>21/03/2019</span></p>
+			<p class="dates">Ends:<span>31/03/2019</span></p>
+         	<button class="btn Open" data-toggle="modal" data-target="#myModal" id="card2-more-info">MORE INFO</button>
+			<button class="btn" data-toggle="modal" data-target="#myModal">GET AIRDROP</button>
+        </div>
+      </div>
+    </div>
+		       <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+		<div class="status upcomingA"><h2>COMING SOON</h2></div>
+          <img src="images/airdrop_logos/xchangrate-logo.png" alt="Paris" width="400" height="300">
+          <p><strong>2.5 Million Tokens</strong></p>
+          <p>Blockchain casino where everyone's a winner.</p>
+			<p class="dates">Open Since:<span>21/03/2019</span></p>
+			<p class="dates">Ends:<span>31/03/2019</span></p>
+         	<button class="btn Open" data-toggle="modal" data-target="#myModal" id="card2-more-info">MORE INFO</button>
+			<button class="btn" data-toggle="modal" data-target="#myModal">GET AIRDROP</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+		<div class="status upcomingA"><h2>COMING SOON</h2></div>
+          <img src="images/airdrop_logos/xchangrate-logo.png" alt="Paris" width="400" height="300">
+          <p><strong>2.5 Million Tokens</strong></p>
+          <p>Blockchain casino where everyone's a winner.</p>
+			<p class="dates">Open Since:<span>21/03/2019</span></p>
+			<p class="dates">Ends:<span>31/03/2019</span></p>
+         	<button class="btn Open" data-toggle="modal" data-target="#myModal" id="card2-more-info">MORE INFO</button>
+			<button class="btn" data-toggle="modal" data-target="#myModal">GET AIRDROP</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+		<div class="status upcomingA"><h2>COMING SOON</h2></div>
+          <img src="images/airdrop_logos/xchangrate-logo.png" alt="Paris" width="400" height="300">
+          <p><strong>2.5 Million Tokens</strong></p>
+          <p>Blockchain casino where everyone's a winner.</p>
+			<p class="dates">Open Since:<span>21/03/2019</span></p>
+			<p class="dates">Ends:<span>31/03/2019</span></p>
+         	<button class="btn Open" data-toggle="modal" data-target="#myModal" id="card2-more-info">MORE INFO</button>
+			<button class="btn" data-toggle="modal" data-target="#myModal">GET AIRDROP</button>
+        </div>
+      </div>
+    </div>
+    </div>
+	  
+	  
+    <div id="menu2" class="tab-pane fade">
+        <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+		<div class="status pastA"><h2>FINISHED</h2></div>
+          <img src="images/airdrop_logos/xchangrate-logo.png" alt="Paris" width="400" height="300">
+          <p><strong>2.5 Million Tokens</strong></p>
+          <p>Blockchain casino where everyone's a winner.</p>
+			<p class="dates">Open Since:<span>21/03/2019</span></p>
+			<p class="dates">Ends:<span>31/03/2019</span></p>
+         	<button class="btn Open" data-toggle="modal" data-target="#myModal" id="card2-more-info">MORE INFO</button>
+			<button class="btn" data-toggle="modal" data-target="#myModal">GET AIRDROP</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+		<div class="status pastA"><h2>FINISHED</h2></div>
+          <img src="images/airdrop_logos/xchangrate-logo.png" alt="Paris" width="400" height="300">
+          <p><strong>2.5 Million Tokens</strong></p>
+          <p>Blockchain casino where everyone's a winner.</p>
+			<p class="dates">Open Since:<span>21/03/2019</span></p>
+			<p class="dates">Ends:<span>31/03/2019</span></p>
+         	<button class="btn Open" data-toggle="modal" data-target="#myModal" id="card2-more-info">MORE INFO</button>
+			<button class="btn" data-toggle="modal" data-target="#myModal">GET AIRDROP</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+		<div class="status pastA"><h2>FINISHED</h2></div>
+          <img src="images/airdrop_logos/xchangrate-logo.png" alt="Paris" width="400" height="300">
+          <p><strong>2.5 Million Tokens</strong></p>
+          <p>Blockchain casino where everyone's a winner.</p>
+			<p class="dates">Open Since:<span>21/03/2019</span></p>
+			<p class="dates">Ends:<span>31/03/2019</span></p>
+         	<button class="btn Open" data-toggle="modal" data-target="#myModal" id="card2-more-info">MORE INFO</button>
+			<button class="btn" data-toggle="modal" data-target="#myModal">GET AIRDROP</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+  </div>
+  
+
+</div>
+	
+	
+	  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><img src="images/airdrop_logos/xchangrate-logo.png" alt="Paris" width="400" height="300"> <br>
+			  <br>
+			<h4 id="card-title"></h4>
+			</h4>
+        </div>
+        <div class="modal-body">
+			
+			<p id="card-description">
+
+			</p>
+			
+				<div class="row text-center airdrop-details">
+      			<div class="col-sm-12">
+					<h4>WEBSITE: <a id="website-link" href='' target='_blank' rel='noopener'></a></h4>
+				  </div>
+				</div>
+				<div class="row text-center airdrop-details">
+				<div class="col-sm-12">
+					<h4>PARTICIPANT RESTRICTIONS: <span id="country-restrictions"></span></h4>
+				  </div>
+				</div>
+				<div class="row text-center airdrop-details">
+      			<div class="col-sm-12">
+							<h4>TOKEN SYMBOL: <span id="token-symbol"></span></h4>
+				  </div>
+				</div>
+				<div class="row text-center airdrop-details">
+					<div class="col-sm-12">
+						<h4>ACCEPTS: <span id="accepted-currency"></span></h4>
+				  </div>
+			</div>
+				<div class="row text-center airdrop-details">
+      			<div class="col-sm-12">
+							<h4>CURRENT PRICE: <span id="current-price"></span></h4>
+				  </div>
+				</div>
+
+
+        </div>
+        <div class="modal-footer">
+			<div class="row text-center">
+				<div class="col-sm-6">
+          <button style="width: 100%" class="btn btn-success btn-default pull-left">
+						<a id="airdrop-lp-link" href="">
+			  		GET AIRDROP <br> View Rules &amp; Apply
+						</a>
+          </button>
+				</div>
+				<div class="col-sm-6">
+		   <button style="width: 100%" type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> <br>Cancel
+          </button>
+<!--          <p>Need <a href="#">help?</a></p>-->
+					</div>
+			</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Container (Contact Section) -->
+<!--
+<div id="contact" class="container">
+  <h3 class="text-center">Contact</h3>
+
+
+
+
+</div>
+-->
+
+
+<!-- Footer -->
+<footer class="text-center">
+
+    <a href="https://facebook.com/tradeio" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/tradetoken" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/company/trade-io/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.reddit.com/r/tradeio" target="_blank" rel="noopener"><i class="fab fa-reddit-alien"></i></a>
+    <a href="https://t.me/TradeToken" target="_blank" rel="noopener"><i class="fab fa-telegram-plane"></i></a>
+<br>
+<!--
+	<br>
+
+  <p>trade.io</p> 
+-->
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+</body>
+</html>
