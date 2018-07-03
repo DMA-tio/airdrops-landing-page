@@ -12,7 +12,7 @@ RewriteBase /
 AuthType Basic
 AuthName "restricted area"
 #AuthUserFile /Applications/XAMPP/xamppfiles/htdocs/aidrops.trade.io/.htpasswd
-AuthUserFile /app/airdrops-portal/.htpasswd
+AuthUserFile /app/.htpasswd
 require valid-user
 
 <filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
