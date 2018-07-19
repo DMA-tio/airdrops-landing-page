@@ -53,10 +53,11 @@ h4 {
 .bg-1 {
 	background: #23294c;
 	color: #bdbdbd;
-	z-index: 2;
-	position: relative;
+	/* z-index: 2; */
+	/* position: relative; */
 	/* box-shadow: black 0px -6px 10px -5px; */
-	margin-bottom: 8rem;
+	/* margin-bottom: 8rem; */
+	padding: 0;
 }
 
 .bg-1 h3 {
@@ -151,7 +152,7 @@ h4,
 
 .navbar-nav li.active a {
 	color: #fff !important;
-	background-color: #29292c !important;
+	background-color: #37c0f9 !important;
 }
 
 .navbar-default .navbar-toggle {
@@ -177,7 +178,7 @@ footer {
 	padding: 32px;
 	box-shadow: black -2px -4px 10px -5px;
 	z-index: 7;
-	position: fixed;
+/*	position: fixed;*/
 	width: 100%;
 	bottom: 0;
 }
@@ -203,7 +204,7 @@ textarea {
 
 .headerContainer {
 	width: -webkit-fill-available;
-	height: 400px;
+	height: 600px;
 	background-image: radial-gradient(circle, #9be4df 0%, #127984 70%, #08446f 100%);
 	position: relative;
 	overflow: hidden;
@@ -222,18 +223,19 @@ textarea {
 	background-position-x: -25px;
 	background-position-y: 2px;
 }
+
 .trees {
-    background-image: url(../images/trees.png);
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    z-index: 2;
-    position: relative;
-    background-repeat: no-repeat;
-    /* background-size: 101% 100%; */
-    background-position-x: right;
-    background-position-y: bottom;
-    top: -371px;
+	background-image: url(../images/trees.png);
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	z-index: 2;
+	position: relative;
+	background-repeat: no-repeat;
+	/* background-size: 101% 100%; */
+	background-position-x: right;
+	background-position-y: bottom;
+	top: -371px;
 }
 
 #Clouds {
@@ -810,14 +812,14 @@ div#window {
 }
 
 a#airdrop-lp-link {
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 
 /*__Media Queries god damn it! ____________________________*/
-/*__________________________________________________________*/
 
+/*__________________________________________________________*/
 
 @-webkit-keyframes flap-r {
 	0%,
@@ -951,5 +953,126 @@ a#airdrop-lp-link {
 	}
 	10% {
 		opacity: 1;
+	}
+}
+
+
+div#FAQs {
+
+	margin-bottom: 6rem;
+	padding-bottom: 2rem;
+	padding-top:2rem;
+	max-width: 1150px;
+}
+
+div#FAQs > h1 {
+	color: white;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 3rem;
+}
+
+.Box h1 {
+	font-size: 2.5rem;
+	font-weight: 400;
+	text-align: left;
+	color: white;
+}
+
+.Box p {
+	font-size: 2rem;
+	text-align: left;
+	font-weight: 200;
+	max-width: 450px;
+	display: block;
+	color: rgba(255,255,255,0.8);
+}
+.Box
+{
+	margin-bottom: 4rem;
+}
+.Boxf > h1
+{
+	margin-top: 4rem;
+	font-size: 2.5rem;
+	font-weight: 400;
+	text-align: left;
+	color: white;
+}
+.Boxf > p
+{
+	max-width: 800px;
+	display: block;
+	color: rgba(255,255,255,0.8);
+	font-size: 2rem;
+	text-align: left;
+	font-weight: 200;
+}
+
+.Boxf ul
+{
+	margin-top:2rem;
+}
+
+.Boxf ul li
+{
+	color:white;
+	font-size: 1.7rem;
+	padding-top:1rem;
+	font-weight: 200;
+	letter-spacing: 0.15rem;
+}
+
+#Form
+{
+	margin-bottom: 7rem;
+	margin-top: 5rem;
+}
+#Form > h1
+{
+	color: white;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 3rem;
+}
+#Form > p
+{
+	text-align: center;
+	color: white;
+	font-size: 2rem;
+	font-weight: 300;
+}
+.navbar-default {
+    background-color: rgba(36, 41, 76, 0.78);
+    border-color: transparent;
+}
+/*_____________________________Media Queries_____________________________*/
+/*_______________________________________________________________________*/
+
+@media (max-width: 768px)
+{
+	.Box
+	{
+		text-align: center;
+		margin: auto;
+	}
+	.Boxf > h1,
+	.Boxf > p,
+	.Box h1,
+	.Box p
+	{
+		text-align: center;
+		margin: auto;
+	}
+	.Boxf,
+	.Box h1
+	{
+		margin-top:3rem;
+	}
+	.Boxf ul
+	{
+		margin-top: 3rem;
+		text-align: center;
+		list-style: none;
 	}
 }

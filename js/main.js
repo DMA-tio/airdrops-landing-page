@@ -1,4 +1,6 @@
 $( document ).ready(function() {
+	var scroll = new SmoothScroll('a[href*="#"]');
+	
     $("button.Open").click(function() {
         let card_id = $(this).attr('id');
         let card_id_formatted = card_id.split('-more-info').join('');
@@ -20,4 +22,6 @@ $( document ).ready(function() {
 			
 				$('#airdrop-lp-link').attr('href', "https://airdrops.trade.io/" + JSONobject[card_id_formatted]['airdrop_lp_link']);
     });
+	
+	
 });
