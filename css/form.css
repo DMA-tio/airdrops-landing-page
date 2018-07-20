@@ -60,7 +60,7 @@
 .hs-form textarea,
 .hs-form select {
 	background: transparent;
-	border: 1px solid white;
+	border: 1px solid rgba(255, 255, 255, 0.35);
 	outline: none;
 	padding: 5px 20px;
 	font-size: 2rem;
@@ -192,23 +192,22 @@
 body .hs-button.primary,
 body input[type="submit"],
 body input[type="button"] {
-	
 	padding: 10px 35px;
 	height: 50px;
 	border:1px solid;
-	border-color: #00c0ff;
-	background: transparent;
-	color: #00c0ff;
+	border-color: rgba(255, 255, 255, 0.35);
+	background: #00c0ff;
+	color: #ffffff;
 	font-size: 2rem;
+	width: 300px;
 	transition:all 0.2s linear;
 }
 
 body .hs-button.primary:hover,
 body input[type="submit"]:hover,
 body input[type="button"]:hover {
-	
 	border-color: white;
-	background: #00c0ff;
+	background: rgba(0, 192, 255, 0.22);
 	color: white;
 }
 
@@ -224,4 +223,60 @@ body input[type="button"]:focus {}
     right: 0;
     bottom: 0;
     margin: auto;
+}
+
+.headerContent .hbspt-form .input
+{
+	display: inline-block;
+}
+.headerContent .hbspt-form .hs_submit
+{
+	display: inline-block;
+}
+.headerContent .hbspt-form .hs-form .hs-form-field
+{
+	display: inline-block;
+}
+
+.headerContent .hbspt-form .hs-form .hs-button.primary
+{
+	height: 40px;
+	padding: 0 32px;
+	margin-left: 0px;
+}
+
+.headerContent .hbspt-form .hs-form .hs-form-field > label
+{
+	margin-right: 30px;
+}
+
+@media (min-width:705px)
+{
+	.headerContent .hbspt-form .hs-form
+	{
+		background-color: rgba(28, 34, 66, 0.8);
+		padding: 10px;
+		height: 60px;
+		box-shadow: rgba(0, 0, 0, 0.23) 0px 0px 5px 0px;
+	}
+	
+}
+
+@media (max-width:705px)
+{
+	
+	.headerContent .hbspt-form .input,
+.headerContent .hbspt-form .hs_submit,
+.headerContent .hbspt-form .hs-form .hs-form-field
+{
+	display: block;
+	text-align: center;
+	margin: auto;
+	width: 300px;
+}
+	.headerContent .hbspt-form .hs-form .hs-button.primary
+{
+	height: 40px;
+	margin-left: 0;
+}
 }

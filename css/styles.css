@@ -219,8 +219,8 @@ textarea {
 	z-index: 1;
 	position: relative;
 	background-repeat-y: no-repeat;
-	background-size: 108% 100%;
-	background-position-x: -25px;
+	/* background-size: 108% 100%; */
+	background-position-x: center;
 	background-position-y: 2px;
 }
 
@@ -876,7 +876,7 @@ a#airdrop-lp-link {
 #pictureframe {
 	position: absolute;
 	width: 100px;
-	margin-top: 100px;
+	margin-top: 581px;
 	-webkit-animation: fly 10s infinite linear, fader 1s ease-in-out;
 	z-index: 0;
 	display: block;
@@ -957,19 +957,13 @@ a#airdrop-lp-link {
 }
 
 
-div#FAQs {
-
-	margin-bottom: 6rem;
-	padding-bottom: 2rem;
-	padding-top:2rem;
-	max-width: 1150px;
-}
+div#FAQs {padding-bottom: 6rem;padding-top: 6rem;max-width: 1150px;/* background: black; */}
 
 div#FAQs > h1 {
 	color: white;
 	text-align: center;
 	margin: auto;
-	margin-bottom: 3rem;
+	padding-bottom: 3rem;
 }
 
 .Box h1 {
@@ -1025,8 +1019,9 @@ div#FAQs > h1 {
 
 #Form
 {
-	margin-bottom: 7rem;
-	margin-top: 5rem;
+	padding-bottom: 7rem;
+	background: rgba(28, 34, 66, 1);
+	padding-top: 7rem;
 }
 #Form > h1
 {
